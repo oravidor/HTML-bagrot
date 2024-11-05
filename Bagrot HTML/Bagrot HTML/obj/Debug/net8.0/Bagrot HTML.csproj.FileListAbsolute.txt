@@ -1,0 +1,30 @@
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\appsettings.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\Bagrot HTML.staticwebassets.runtime.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\Bagrot HTML.exe
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\Bagrot HTML.deps.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\Bagrot HTML.runtimeconfig.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\Bagrot HTML.dll
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\Bagrot HTML.pdb
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.AssemblyInfoInputs.cache
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.AssemblyInfo.cs
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.csproj.CoreCompileInputs.cache
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.RazorAssemblyInfo.cache
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.RazorAssemblyInfo.cs
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets\msbuild.Bagrot HTML.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets\msbuild.build.Bagrot HTML.props
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Bagrot HTML.props
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Bagrot HTML.props
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\scopedcss\bundle\Bagrot HTML.styles.css
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\scopedcss\projectbundle\Bagrot HTML.bundle.scp.css
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.dll
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\refint\Bagrot HTML.dll
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.pdb
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.genruntimeconfig.cache
+C:\Users\Or\source\repos\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\ref\Bagrot HTML.dll

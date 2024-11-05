@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Bagrot HTML.props" />
+</Project>
