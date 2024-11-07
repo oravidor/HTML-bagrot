@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\",
+  "WorkspaceRootPath": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\or\\source\\repos\\bagrot html\\bagrot html\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\or\\source\\repos\\bagrot html\\bagrot html\\wwwroot\\html\\htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\wwwroot\\html\\htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\wwwroot\\html\\htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StyleSheet.css",
-              "DocumentMoniker": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
               "RelativeDocumentMoniker": "Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
-              "ToolTip": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
+              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
               "RelativeToolTip": "Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-05T19:58:02.682Z",
               "EditorCaption": ""
@@ -37,11 +37,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "htmlpage.html",
-              "DocumentMoniker": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
+              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
               "RelativeDocumentMoniker": "Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
-              "ToolTip": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
+              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
               "RelativeToolTip": "Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-05T19:26:48.428Z",
               "EditorCaption": ""

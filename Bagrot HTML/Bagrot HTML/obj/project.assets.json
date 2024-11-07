@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Or\\.nuget\\packages\\": {}
+    "C:\\Users\\avido\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\Bagrot HTML\\Bagrot HTML.csproj",
+      "projectUniqueName": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Bagrot HTML.csproj",
       "projectName": "Bagrot HTML",
-      "projectPath": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\Bagrot HTML\\Bagrot HTML.csproj",
-      "packagesPath": "C:\\Users\\Or\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Or\\source\\repos\\Bagrot HTML\\Bagrot HTML\\obj\\",
+      "projectPath": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Bagrot HTML.csproj",
+      "packagesPath": "C:\\Users\\avido\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Or\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\avido\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
