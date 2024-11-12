@@ -5,8 +5,12 @@
       "PackagePath": "staticwebassets\\Bagrot HTML.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
-      "PackagePath": "staticwebassets\\HTML\\htmlpage.html"
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\Carbohydrates and Sugar.html",
+      "PackagePath": "staticwebassets\\HTML\\Carbohydrates and Sugar.html"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\Home Page.html",
+      "PackagePath": "staticwebassets\\HTML\\Home Page.html"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",

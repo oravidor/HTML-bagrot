@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P4lyHbnVziFIF3soFWsaWAQpMg5fx8wBhH4E7Z6v2WE=",
+  "Hash": "8S9cKzCgRIz/7Vgk86D619ilCMqtwpnl0WDhokD/lNw=",
   "Source": "Bagrot HTML",
   "BasePath": "_content/Bagrot HTML",
   "Mode": "Default",
@@ -112,12 +112,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\htmlpage.html",
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\Carbohydrates and Sugar.html",
       "SourceId": "Bagrot HTML",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
       "BasePath": "_content/Bagrot HTML",
-      "RelativePath": "HTML/htmlpage.html",
+      "RelativePath": "HTML/Carbohydrates and Sugar.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +128,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\HTML\\htmlpage.html"
+      "OriginalItemSpec": "wwwroot\\HTML\\Carbohydrates and Sugar.html"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\Home Page.html",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "HTML/Home Page.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\HTML\\Home Page.html"
     },
     {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\site.js",

@@ -18,8 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Carbohydrates and Sugar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FyYm9oeWRyYXRlcyBhbmQgU3VnYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/food labels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZm9vZCBsYWJlbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Index.cshtml]
@@ -28,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Shared/_ProgectLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Qcm9nZWN0TGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Shared/_ValidationScriptsPartial.cshtml]
