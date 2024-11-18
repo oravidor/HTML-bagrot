@@ -7,12 +7,12 @@
 </head>
 <body>
     <div>
-        <nav>
-            
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-page="/Home">Home</a>
-                <a class="nav-link text-dark" asp-area="" asp-page="/Carbohydrates and Sugar">Carbohydrates and Sugar</a>
-            </li>
+        <nav class="navbar">
+            <ul>
+                <li><a class="nav-link text-dark" asp-area="" asp-page="/Home">Home</a></li>
+                <li><a class="nav-link text-dark" asp-area="" asp-page="/Carbohydrates and Sugar">Carbohydrates and Sugar</a></li>
+                <li><a class="nav-link text-dark" asp-area="" asp-page="/food labels">food labels</a></li>
+            </ul>
         </nav>
 
         @RenderBody()

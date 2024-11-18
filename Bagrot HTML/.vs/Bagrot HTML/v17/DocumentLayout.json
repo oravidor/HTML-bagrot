@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\food labels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\pages\\carbohydrates and sugar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\carbohydrates and sugar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\wwwroot\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\pages\\shared\\_progectlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\shared\\_progectlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\pages\\carbohydrates and sugar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\carbohydrates and sugar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "_ProgectLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
+              "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
+              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
+              "RelativeToolTip": "Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T06:38:29.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StyleSheet.css",
               "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
               "RelativeDocumentMoniker": "Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
               "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
               "RelativeToolTip": "Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-11T13:07:36.955Z",
+              "WhenOpened": "2024-11-17T06:38:10.066Z",
               "EditorCaption": ""
             },
             {
@@ -53,48 +62,22 @@
               "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\food labels.cshtml",
               "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\food labels.cshtml",
               "RelativeToolTip": "Bagrot HTML\\Pages\\food labels.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFUAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T13:05:13.077Z",
+              "WhenOpened": "2024-11-17T06:37:41.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Home.cshtml",
-              "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\Home.cshtml",
-              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Home.cshtml",
-              "RelativeToolTip": "Bagrot HTML\\Pages\\Home.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T13:04:16.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Carbohydrates and Sugar.cshtml",
               "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Carbohydrates and Sugar.cshtml",
               "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\Carbohydrates and Sugar.cshtml",
               "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Carbohydrates and Sugar.cshtml",
               "RelativeToolTip": "Bagrot HTML\\Pages\\Carbohydrates and Sugar.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEgAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T11:47:00.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ProgectLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
-              "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
-              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
-              "RelativeToolTip": "Bagrot HTML\\Pages\\Shared\\_ProgectLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T11:47:17.644Z",
+              "WhenOpened": "2024-11-17T06:37:36.092Z",
               "EditorCaption": ""
             }
           ]
