@@ -12,9 +12,9 @@ namespace Bagrot_HTML.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
-
+            return LocalRedirect("/Home");
         }
     }
 }

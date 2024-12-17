@@ -1,0 +1,191 @@
+﻿select * from UsersDB
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+3	user1@gmail.com	Herzliya	972	894263712	Elie	Copter	2001	Male	Elie9/11	ElieCopter
+7	user2@gmail.com	Herzliya	972	452945315	Sami	Saviv	1999	Male	SamiSav	Monit
+9	user3@gmail.com	Herzliya	972	286151896	Avi	Zar	2025	Dog	AviZar	Avi25
+12	user4@gmail.com	Rosh Haayin	972	652869699	Niv	Dal	2000	Female	Nivdal	offside
+13	user5@gmail.com	Herzliya	972	519614621	Gal	Galon	1975	Male	GalGalon	Gal1975
+14	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	howlongcanimakemyusername	M1234
+15	user7@gmail.com	Herzliya	972	959499594	Natan	Lidoh	1999	Female	POLISE911	9/11
+16	user8@gmail.com	Herzliya	972	949191299	Avi	Ron	2009	Male	iloveflying	plane911
+18	user9@gmail.com	Rosh Haayin	972	494991491	Bati	Pool	2016	Wolmart Bag	BATI16	123456789
+22	user10@gmail.com	Rosh Haayin	972	991919129	Mimi	Tasak	2001	Male	ilove911	911itsthebest
+26	user11@gmail.com	Rosh Haayin	972	945954949	Adi	Mal	1995	Female	AdiM	M1234adi
+30	user12@gmail.com	Herzliya	NULL	NULL	Roni	Gal	2008	Female	GALRONI	ronI1
+31	user13@gmail.com	Tel Aviv	972	945969426	Mori	Bas	2000	Male	MORI1	987654321
+32	user14@gmail.com	Tel Aviv	NULL	NULL	Ori	Forty	2007	Male	Ori FORTY	Forty07
+33	user15@gmail.com	Herzliya	NULL	NULL	My	Man	2001	Female	MtMan	20010911
+34	user16@gmail.com	Rosh Haayin	972	949459459	Ofir	Shaman	1999	Male	AniLoShaman	Shaman1
+36	user17@gmail.com	Herzlia	NULL	NULL	Or	Gal	2009	Female	NoUserNameForYou	NoPassword
+38	user18@gmail.com	Tel Aviv	NULL	NULL	Tal	Aviv	2001	Male	TALAVI	AVIV1
+39	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	newMish	M1234
+
+select * from UsersDB order by YearOfBirth
+13	user5@gmail.com	Herzliya	972	519614621	Gal	Galon	1975	Male	GalGalon	Gal1975
+26	user11@gmail.com	Rosh Haayin	972	945954949	Adi	Mal	1995	Female	AdiM	M1234adi
+34	user16@gmail.com	Rosh Haayin	972	949459459	Ofir	Shaman	1999	Male	AniLoShaman	Shaman1
+15	user7@gmail.com	Herzliya	972	959499594	Natan	Lidoh	1999	Female	POLISE911	9/11
+7	user2@gmail.com	Herzliya	972	452945315	Sami	Saviv	1999	Male	SamiSav	Monit
+31	user13@gmail.com	Tel Aviv	972	945969426	Mori	Bas	2000	Male	MORI1	987654321
+12	user4@gmail.com	Rosh Haayin	972	652869699	Niv	Dal	2000	Female	Nivdal	offside
+22	user10@gmail.com	Rosh Haayin	972	991919129	Mimi	Tasak	2001	Male	ilove911	911itsthebest
+3	user1@gmail.com	Herzliya	972	894263712	Elie	Copter	2001	Male	Elie9/11	ElieCopter
+38	user18@gmail.com	Tel Aviv	NULL	NULL	Tal	Aviv	2001	Male	TALAVI	AVIV1
+33	user15@gmail.com	Herzliya	NULL	NULL	My	Man	2001	Female	MtMan	20010911
+32	user14@gmail.com	Tel Aviv	NULL	NULL	Ori	Forty	2007	Male	Ori FORTY	Forty07
+30	user12@gmail.com	Herzliya	NULL	NULL	Roni	Gal	2008	Female	GALRONI	ronI1
+36	user17@gmail.com	Herzlia	NULL	NULL	Or	Gal	2009	Female	NoUserNameForYou	NoPassword
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+16	user8@gmail.com	Herzliya	972	949191299	Avi	Ron	2009	Male	iloveflying	plane911
+18	user9@gmail.com	Rosh Haayin	972	494991491	Bati	Pool	2016	Wolmart Bag	BATI16	123456789
+14	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	howlongcanimakemyusername	M1234
+39	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	newMish	M1234
+9	user3@gmail.com	Herzliya	972	286151896	Avi	Zar	2025	Dog	AviZar	Avi25
+
+select * from UsersDB order by Id
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+3	user1@gmail.com	Herzliya	972	894263712	Elie	Copter	2001	Male	Elie9/11	ElieCopter
+7	user2@gmail.com	Herzliya	972	452945315	Sami	Saviv	1999	Male	SamiSav	Monit
+9	user3@gmail.com	Herzliya	972	286151896	Avi	Zar	2025	Dog	AviZar	Avi25
+12	user4@gmail.com	Rosh Haayin	972	652869699	Niv	Dal	2000	Female	Nivdal	offside
+13	user5@gmail.com	Herzliya	972	519614621	Gal	Galon	1975	Male	GalGalon	Gal1975
+14	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	howlongcanimakemyusername	M1234
+15	user7@gmail.com	Herzliya	972	959499594	Natan	Lidoh	1999	Female	POLISE911	9/11
+16	user8@gmail.com	Herzliya	972	949191299	Avi	Ron	2009	Male	iloveflying	plane911
+18	user9@gmail.com	Rosh Haayin	972	494991491	Bati	Pool	2016	Wolmart Bag	BATI16	123456789
+22	user10@gmail.com	Rosh Haayin	972	991919129	Mimi	Tasak	2001	Male	ilove911	911itsthebest
+26	user11@gmail.com	Rosh Haayin	972	945954949	Adi	Mal	1995	Female	AdiM	M1234adi
+30	user12@gmail.com	Herzliya	NULL	NULL	Roni	Gal	2008	Female	GALRONI	ronI1
+31	user13@gmail.com	Tel Aviv	972	945969426	Mori	Bas	2000	Male	MORI1	987654321
+32	user14@gmail.com	Tel Aviv	NULL	NULL	Ori	Forty	2007	Male	Ori FORTY	Forty07
+33	user15@gmail.com	Herzliya	NULL	NULL	My	Man	2001	Female	MtMan	20010911
+34	user16@gmail.com	Rosh Haayin	972	949459459	Ofir	Shaman	1999	Male	AniLoShaman	Shaman1
+36	user17@gmail.com	Herzlia	NULL	NULL	Or	Gal	2009	Female	NoUserNameForYou	NoPassword
+38	user18@gmail.com	Tel Aviv	NULL	NULL	Tal	Aviv	2001	Male	TALAVI	AVIV1
+39	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	newMish	M1234
+
+select Gender, password from UsersDB
+Male	avidoror
+Male	ElieCopter
+Male	Monit
+Dog	Avi25
+Female	offside
+Male	Gal1975
+Female	M1234
+Female	9/11
+Male	plane911
+Wolmart Bag	123456789
+Male	911itsthebest
+Female	M1234adi
+Female	ronI1
+Male	987654321
+Male	Forty07
+Female	20010911
+Male	Shaman1
+Female	NoPassword
+Male	AVIV1
+Female	M1234
+
+select * from UsersDB
+where PrefixID = 972
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+3	user1@gmail.com	Herzliya	972	894263712	Elie	Copter	2001	Male	Elie9/11	ElieCopter
+7	user2@gmail.com	Herzliya	972	452945315	Sami	Saviv	1999	Male	SamiSav	Monit
+9	user3@gmail.com	Herzliya	972	286151896	Avi	Zar	2025	Dog	AviZar	Avi25
+12	user4@gmail.com	Rosh Haayin	972	652869699	Niv	Dal	2000	Female	Nivdal	offside
+13	user5@gmail.com	Herzliya	972	519614621	Gal	Galon	1975	Male	GalGalon	Gal1975
+14	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	howlongcanimakemyusername	M1234
+15	user7@gmail.com	Herzliya	972	959499594	Natan	Lidoh	1999	Female	POLISE911	9/11
+16	user8@gmail.com	Herzliya	972	949191299	Avi	Ron	2009	Male	iloveflying	plane911
+18	user9@gmail.com	Rosh Haayin	972	494991491	Bati	Pool	2016	Wolmart Bag	BATI16	123456789
+22	user10@gmail.com	Rosh Haayin	972	991919129	Mimi	Tasak	2001	Male	ilove911	911itsthebest
+26	user11@gmail.com	Rosh Haayin	972	945954949	Adi	Mal	1995	Female	AdiM	M1234adi
+31	user13@gmail.com	Tel Aviv	972	945969426	Mori	Bas	2000	Male	MORI1	987654321
+34	user16@gmail.com	Rosh Haayin	972	949459459	Ofir	Shaman	1999	Male	AniLoShaman	Shaman1
+39	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	newMish	M1234
+
+select * from UsersDB
+where LastName like '%a%'
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+7	user2@gmail.com	Herzliya	972	452945315	Sami	Saviv	1999	Male	SamiSav	Monit
+9	user3@gmail.com	Herzliya	972	286151896	Avi	Zar	2025	Dog	AviZar	Avi25
+12	user4@gmail.com	Rosh Haayin	972	652869699	Niv	Dal	2000	Female	Nivdal	offside
+13	user5@gmail.com	Herzliya	972	519614621	Gal	Galon	1975	Male	GalGalon	Gal1975
+14	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	howlongcanimakemyusername	M1234
+22	user10@gmail.com	Rosh Haayin	972	991919129	Mimi	Tasak	2001	Male	ilove911	911itsthebest
+26	user11@gmail.com	Rosh Haayin	972	945954949	Adi	Mal	1995	Female	AdiM	M1234adi
+30	user12@gmail.com	Herzliya	NULL	NULL	Roni	Gal	2008	Female	GALRONI	ronI1
+31	user13@gmail.com	Tel Aviv	972	945969426	Mori	Bas	2000	Male	MORI1	987654321
+33	user15@gmail.com	Herzliya	NULL	NULL	My	Man	2001	Female	MtMan	20010911
+34	user16@gmail.com	Rosh Haayin	972	949459459	Ofir	Shaman	1999	Male	AniLoShaman	Shaman1
+36	user17@gmail.com	Herzlia	NULL	NULL	Or	Gal	2009	Female	NoUserNameForYou	NoPassword
+38	user18@gmail.com	Tel Aviv	NULL	NULL	Tal	Aviv	2001	Male	TALAVI	AVIV1
+39	user6@gmail.com	Herzliya	972	649464964	Mish	Tal	2018	Female	newMish	M1234
+
+
+select * from UsersDB
+where LastName like 'A%'
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+38	user18@gmail.com	Tel Aviv	NULL	NULL	Tal	Aviv	2001	Male	TALAVI	AVIV1
+
+select * from UsersDB
+where YearOfBirth > 2000 and YearOfBirth < 2010
+order by YearOfBirth
+3	user1@gmail.com	Herzliya	972	894263712	Elie	Copter	2001	Male	Elie9/11	ElieCopter
+22	user10@gmail.com	Rosh Haayin	972	991919129	Mimi	Tasak	2001	Male	ilove911	911itsthebest
+33	user15@gmail.com	Herzliya	NULL	NULL	My	Man	2001	Female	MtMan	20010911
+38	user18@gmail.com	Tel Aviv	NULL	NULL	Tal	Aviv	2001	Male	TALAVI	AVIV1
+32	user14@gmail.com	Tel Aviv	NULL	NULL	Ori	Forty	2007	Male	Ori FORTY	Forty07
+30	user12@gmail.com	Herzliya	NULL	NULL	Roni	Gal	2008	Female	GALRONI	ronI1
+16	user8@gmail.com	Herzliya	972	949191299	Avi	Ron	2009	Male	iloveflying	plane911
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+36	user17@gmail.com	Herzlia	NULL	NULL	Or	Gal	2009	Female	NoUserNameForYou	NoPassword
+
+select * from UsersDB
+where YearOfBirth in (2009, 2000)
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+12	user4@gmail.com	Rosh Haayin	972	652869699	Niv	Dal	2000	Female	Nivdal	offside
+16	user8@gmail.com	Herzliya	972	949191299	Avi	Ron	2009	Male	iloveflying	plane911
+31	user13@gmail.com	Tel Aviv	972	945969426	Mori	Bas	2000	Male	MORI1	987654321
+36	user17@gmail.com	Herzlia	NULL	NULL	Or	Gal	2009	Female	NoUserNameForYou	NoPassword
+
+select * from UsersDB
+where YearOfBirth in (2009, 2000)
+order by YearOfBirth
+2	avidor.or@gmail.com	Rosh Haayin	972	542528506	Or	Avidor	2009	Male	OrAvidor	avidoror
+12	user4@gmail.com	Rosh Haayin	972	652869699	Niv	Dal	2000	Female	Nivdal	offside
+16	user8@gmail.com	Herzliya	972	949191299	Avi	Ron	2009	Male	iloveflying	plane911
+31	user13@gmail.com	Tel Aviv	972	945969426	Mori	Bas	2000	Male	MORI1	987654321
+36	user17@gmail.com	Herzlia	NULL	NULL	Or	Gal	2009	Female	NoUserNameForYou	NoPassword
+
+select FirstName, LastName from UsersDB
+where FirstName between 'A%' and 'H%'
+order by FirstName
+Adi	Mal
+Avi	Zar
+Avi	Ron
+Bati	Pool
+Elie	Copter
+Gal	Galon
+
+select Phone from UsersDB
+542528506
+894263712
+452945315
+286151896
+652869699
+519614621
+649464964
+959499594
+949191299
+494991491
+991919129
+945954949
+NULL
+945969426
+NULL
+NULL
+949459459
+NULL
+NULL
+649464964
