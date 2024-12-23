@@ -1,12 +1,12 @@
 ﻿<!DOCTYPE html>
 
+
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
         <nav class="navbar">
             <ul>
                 <li><a asp-page="/Home">Home</a></li>
@@ -16,11 +16,12 @@
             </ul>
         </nav>
 
-        @RenderBody()   
+        <div>
+            @RenderBody()
+        </div> 
 
         <footer>
 
         </footer>
-    </div>
 </body>
 </html>

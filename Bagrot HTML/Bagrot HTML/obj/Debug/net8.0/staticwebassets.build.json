@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gik498tCK/J5UGQ8ecxpVOC3dkMSZ43fMcXTJS054ik=",
+  "Hash": "+aDguRutc/pRz4sUDn5KkgIuQ54Wbbum/6jF+67s+uY=",
   "Source": "Bagrot HTML",
   "BasePath": "_content/Bagrot HTML",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bagrot HTML.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\AdminStyleSheet.css",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "css/AdminStyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdminStyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\site.css",

@@ -1,24 +1,40 @@
 ﻿
-body{
-    margin:0px
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
-main{
-    margin: 8px;
+
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
 }
-footer {
-    background-color: HSL(0, 0%, 25%);
+
+h1 {
+    margin-bottom: 10px;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .navbar ul {
     list-style-type: none;
     background-color: HSL(0, 0%, 25%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    padding-left: 20px;
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
@@ -26,9 +42,15 @@ footer {
     display: block;
     text-align: center;
 }
+
 .navbar a:hover {
     background-color: HSL(0, 0%, 10%);
 }
-.navbar li{
+
+.navbar li {
     float: left;
+}
+
+.pageTitle{
+    text-align:center
 }

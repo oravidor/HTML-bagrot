@@ -9,7 +9,7 @@ namespace Bagrot_HTML.Pages
     public class AdminModel : PageModel
     {
         public DataTable? DataTableUsers { get; set; }
-        public string[] displayColumns { get; set; } = ["Id", "FirstName", "LastName", "Email", "PrefixID", "Phone", "CityID", "Gender", "YearOfBirth"];
+        public string[] displayColumns { get; set; } = ["Id", "Email", "CityID", "PrefixID", "Phone", "FirstName", "LastName", "YearOfBirth", "Gender", "UserName", "Password"];
 
         public IActionResult OnGet()
         {

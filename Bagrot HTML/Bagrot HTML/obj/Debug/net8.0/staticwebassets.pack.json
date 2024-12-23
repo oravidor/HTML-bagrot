@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Bagrot HTML.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\AdminStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\AdminStyleSheet.css"
+    },
+    {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
       "PackagePath": "staticwebassets\\css\\StyleSheet.css"
     },
