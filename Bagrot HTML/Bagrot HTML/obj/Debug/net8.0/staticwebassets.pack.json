@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image.ico",
+      "PackagePath": "staticwebassets\\image.ico"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\pageLogo.png",
+      "PackagePath": "staticwebassets\\image\\pageLogo.png"
+    },
+    {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
