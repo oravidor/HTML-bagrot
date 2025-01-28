@@ -48,13 +48,13 @@
         <br />
 
         <label for="reg_yearOfBirth" class="lable">Year Of Birth</label>
-        <input type="text" asp-for="user.YearOfBirth" id="reg_yearOfBirth" min="1" maxlength="50" placeholder="2006" oninput="checkYearOfBirth()" required />
+        <input type="number" asp-for="user.YearOfBirth" id="reg_yearOfBirth" min="1" maxlength="50" placeholder="2006" oninput="checkYearOfBirth()" required />
         <br />
         <span class="text-danger" id="reg_errorYearOfBirth"></span>
         <br />
 
         <button type="submit" name="submit" value="Register">Register</button>
-        <button type="reset" name="reset" value="reset" onclick="reset()">reset</button>
+        <button type="button" onclick="clearTextFields()">reset</button>
     </form>
 
     @Html.Raw(@Model.st)

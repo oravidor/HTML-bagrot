@@ -66,9 +66,25 @@ function checkConfirmPassword() {
 }
 
 function checkYearOfBirth(){
+    const currentYear = new Date().getFullYear();
+    const yearOfBirth = document.getElementById("reg_yearOfBirth").value;
+    const errorElement = document.getElementById("reg_errorYearOfBirth");
 
+    const age = currentYear - yearOfBirth;
+
+    errorElement.innerHTML = "";
+
+    if (age >= 16) {
+        return true;
+    } else {
+        errorElement.innerHTML = "You are need to by older than 16 years";
+        return false;
+    }
+   
 }
 
-function reset(){
+function clearTextFields() {
+    const textInputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='password']");
 
+    textInputs.forEach(input => input.value = "");
 }
