@@ -1,16 +1,18 @@
 ﻿@page
 @model Bagrot_HTML.Pages.RegisterModel
 @{
-    ViewData["Title"] = "food labels";
+    ViewData["Title"] = "Registration Form";
 }
+<link href="~/css/registerstylesheet.css" rel="stylesheet" />
 <link href="~/css/stylesheet.css" rel="stylesheet" />
+
 <main>
    
     <script src="~/js/Register.js"></script>
 
-    <h3 style="">User Registration</h3>
+    <h3 style="">User Registration Form</h3>
 
-    <form name="regfoem" method="post" onsubmit="return validateRegistgerForm();" onreset="resetForm();">
+    <form name="regfoem" method="post" onsubmit="return validateRegistgerForm(); resetForm();" onreset="resetForm();">
         <label for="reg_email" class="label">Email</label>
         <input type="email" asp-for="user.Email" id="reg_email" maxlength="50" placeholder="yourEmail@gmail.com" oninput="checkEmail()" required />
         <br />

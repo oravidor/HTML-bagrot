@@ -1,5 +1,5 @@
 wwwroot\css\AdminStyleSheet.css
-wwwroot\css\site.css
+wwwroot\css\RegisterStyleSheet.css
 wwwroot\css\StyleSheet.css
 wwwroot\css\StyleSheetCalculator.css
 wwwroot\favicon.ico

@@ -1,20 +1,31 @@
-﻿function checkEmail(){
+﻿function checkFirstName() {
+    const firstName = document.getElementById("reg_firstName").value;
+    const errorElement = document.getElementById("reg_errorFirstName");
 
+    errorElement.innerHTML = "";
+
+    let regExFirstName = /^[A-Z][a-zA-Z\s-]{0,20}[a-zA-Z]$/;
+
+    if (!regExFirstName.test(firstName)) {
+        errorElement.innerHTML = "Invalid first name";
+        return false;
+    }
+    return true;
 }
-
-
-function checkFirstName() {
-    
-}
-
 function checkLastName(){
+    const lastName = document.getElementById("reg_lastName").value;
+    const errorElement = document.getElementById("reg_errorLastName");
 
+    errorElement.innerHTML = "";
+
+    let regExFirstName = /^[A-Z][a-zA-Z\s-]{0,20}[a-zA-Z]$/;
+
+    if (!regExFirstName.test(lastName)) {
+        errorElement.innerHTML = "Invalid last name";
+        return false;
+    }
+    return true;
 }
-
-function checkUserName(){
-
-}
-
 function checkPassword() {
     const password = document.getElementById("reg_password").value;
     const errorElement = document.getElementById("reg_errorPassword");
@@ -48,8 +59,6 @@ function checkPassword() {
 
     return true;
 }
-
-
 function checkConfirmPassword() {
     const confirmPassword = document.getElementById("reg_confirmPassword").value;
     const password = document.getElementById("reg_password").value;
@@ -64,7 +73,6 @@ function checkConfirmPassword() {
         return false;
     }
 }
-
 function checkYearOfBirth(){
     const currentYear = new Date().getFullYear();
     const yearOfBirth = document.getElementById("reg_yearOfBirth").value;
@@ -82,9 +90,8 @@ function checkYearOfBirth(){
     }
    
 }
-
 function clearTextFields() {
-    const textInputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='password']");
+    const textInputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='password'], input[type='number']");
 
     textInputs.forEach(input => input.value = "");
 }

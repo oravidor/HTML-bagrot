@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yiWM++fbArAlqodSN49aGFJHFYJuxU9sWjweAqVcF2Y=",
+  "Hash": "IXaYF/WSbEfmum4XwteE6fv58cCHA62Ni6HrI5Uyw9Y=",
   "Source": "Bagrot HTML",
   "BasePath": "_content/Bagrot HTML",
   "Mode": "Default",
@@ -80,12 +80,12 @@
       "OriginalItemSpec": "wwwroot\\css\\AdminStyleSheet.css"
     },
     {
-      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\RegisterStyleSheet.css",
       "SourceId": "Bagrot HTML",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
       "BasePath": "_content/Bagrot HTML",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "RelativePath": "css/RegisterStyleSheet#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -94,11 +94,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "swto31qtgy",
+      "Integrity": "lOvJxgym386Zx8BXeIWce+vUpl/Noj0WzHdHw7F/YDI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\RegisterStyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jr3vfgnznn",
-      "Integrity": "zwOhKKlQoskZQP6/wOZ9/PbEZRbx0UcY/cJ7fDuphJU=",
+      "Fingerprint": "6zmd5skb5w",
+      "Integrity": "kspShdlC2ihmE6qvo5zIajqg880O5be5w/mS3Ww2lJo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Register.js"
@@ -1735,8 +1735,8 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\site.css",
+      "Route": "css/RegisterStyleSheet.css",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\RegisterStyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1745,7 +1745,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1920"
         },
         {
           "Name": "Content-Type",
@@ -1753,56 +1753,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"lOvJxgym386Zx8BXeIWce+vUpl/Noj0WzHdHw7F/YDI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 19:37:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 19:37:32 GMT"
+          "Value": "Tue, 28 Jan 2025 11:57:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1812,7 +1767,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-lOvJxgym386Zx8BXeIWce+vUpl/Noj0WzHdHw7F/YDI="
+        }
+      ]
+    },
+    {
+      "Route": "css/RegisterStyleSheet.swto31qtgy.css",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\RegisterStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lOvJxgym386Zx8BXeIWce+vUpl/Noj0WzHdHw7F/YDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 11:57:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swto31qtgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/RegisterStyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lOvJxgym386Zx8BXeIWce+vUpl/Noj0WzHdHw7F/YDI="
         }
       ]
     },
@@ -2391,7 +2391,7 @@
       ]
     },
     {
-      "Route": "js/Register.jr3vfgnznn.js",
+      "Route": "js/Register.6zmd5skb5w.js",
       "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2401,7 +2401,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1839"
+          "Value": "2985"
         },
         {
           "Name": "Content-Type",
@@ -2409,11 +2409,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zwOhKKlQoskZQP6/wOZ9/PbEZRbx0UcY/cJ7fDuphJU=\""
+          "Value": "\"kspShdlC2ihmE6qvo5zIajqg880O5be5w/mS3Ww2lJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 09:47:26 GMT"
+          "Value": "Tue, 28 Jan 2025 12:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2423,7 +2423,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jr3vfgnznn"
+          "Value": "6zmd5skb5w"
         },
         {
           "Name": "label",
@@ -2431,7 +2431,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zwOhKKlQoskZQP6/wOZ9/PbEZRbx0UcY/cJ7fDuphJU="
+          "Value": "sha256-kspShdlC2ihmE6qvo5zIajqg880O5be5w/mS3Ww2lJo="
         }
       ]
     },
@@ -2446,7 +2446,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1839"
+          "Value": "2985"
         },
         {
           "Name": "Content-Type",
@@ -2454,11 +2454,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zwOhKKlQoskZQP6/wOZ9/PbEZRbx0UcY/cJ7fDuphJU=\""
+          "Value": "\"kspShdlC2ihmE6qvo5zIajqg880O5be5w/mS3Ww2lJo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 09:47:26 GMT"
+          "Value": "Tue, 28 Jan 2025 12:00:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2468,7 +2468,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zwOhKKlQoskZQP6/wOZ9/PbEZRbx0UcY/cJ7fDuphJU="
+          "Value": "sha256-kspShdlC2ihmE6qvo5zIajqg880O5be5w/mS3Ww2lJo="
         }
       ]
     },
