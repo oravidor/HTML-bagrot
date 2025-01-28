@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bagrot HTML.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Bagrot HTML.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Bagrot HTML.1pajhbgxf1.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\CalculatorHTML.html",
+      "PackagePath": "staticwebassets\\HTML\\CalculatorHTML.html"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\AdminStyleSheet.css",
@@ -11,6 +15,10 @@
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheet.css",
       "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\StyleSheetCalculator.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheetCalculator.css"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\site.css",
@@ -27,6 +35,14 @@
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\pageLogo.png",
       "PackagePath": "staticwebassets\\image\\pageLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Calculator.js",
+      "PackagePath": "staticwebassets\\js\\Calculator.js"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",
+      "PackagePath": "staticwebassets\\js\\Register.js"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\site.js",
@@ -259,6 +275,10 @@
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bagrot HTML.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bagrot HTML.Microsoft.AspNetCore.StaticWebAssets.props",

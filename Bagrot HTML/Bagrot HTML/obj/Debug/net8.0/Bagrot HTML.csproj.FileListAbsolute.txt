@@ -97,3 +97,7 @@ C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0
 C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot HTML.csproj.AssemblyReference.cache
 C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\Bagrot H.F5D79965.Up2Date
+C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\bin\Debug\net8.0\Bagrot HTML.staticwebassets.endpoints.json
+C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets\msbuild.Bagrot HTML.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\avido\source\repos\HTML-bagrot\Bagrot HTML\Bagrot HTML\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

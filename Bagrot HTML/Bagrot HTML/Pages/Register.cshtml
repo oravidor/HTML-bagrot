@@ -1,0 +1,61 @@
+﻿@page
+@model Bagrot_HTML.Pages.RegisterModel
+@{
+    ViewData["Title"] = "food labels";
+}
+<link href="~/css/stylesheet.css" rel="stylesheet" />
+<main>
+   
+    <script src="~/js/Register.js"></script>
+
+    <h3 style="">User Registration</h3>
+
+    <form name="regfoem" method="post" onsubmit="return validateRegistgerForm();" onreset="resetForm();">
+        <label for="reg_email" class="label">Email</label>
+        <input type="email" asp-for="user.Email" id="reg_email" maxlength="50" placeholder="yourEmail@gmail.com" oninput="checkEmail()" required />
+        <br />
+        <span class="text-danger" id="reg_errorEmail"></span>
+        <br />
+
+        <label for="reg_firstName" class="lable">First Name</label>
+        <input type="text" asp-for="user.FirstName" id="reg_firstName" min="1" maxlength="50" placeholder="your first name" oninput="checkFirstName()" required />
+        <br />
+        <span class="text-danger" id="reg_errorFirstName"></span>
+        <br />
+
+        <label for="reg_lastName" class="lable">Last Name</label>
+        <input type="text" asp-for="user.LastName" id="reg_lastName" min="1" maxlength="50" placeholder="your last name" oninput="checkLastName()" required />
+        <br />
+        <span class="text-danger" id="reg_errorLastName"></span>
+        <br />
+
+        <label for="reg_userName" class="lable">User Name</label>
+        <input type="text" asp-for="user.UserName" id="reg_userName" min="1" maxlength="50" placeholder="your user name" oninput="checkUserName()" required />
+        <br />
+        <span class="text-danger" id="reg_errorUserName"></span>
+        <br />
+
+        <label for="reg_password" class="lable">User Password</label>
+        <input type="password" asp-for="user.Password" id="reg_password" min="1" maxlength="50" placeholder="your Password" oninput="checkPassword(); checkConfirmPassword()" required />
+        <br />
+        <span class="text-danger" id="reg_errorPassword"></span>
+        <br />
+
+        <label for="reg_confirmPassword" class="lable">confirm User Password</label>
+        <input type="password" id="reg_confirmPassword" min="1" maxlength="50" placeholder="confirm your Password" oninput="checkConfirmPassword()" required />
+        <br />
+        <span class="text-danger" id="reg_errorConfirmPassword"></span>
+        <br />
+
+        <label for="reg_yearOfBirth" class="lable">Year Of Birth</label>
+        <input type="text" asp-for="user.YearOfBirth" id="reg_yearOfBirth" min="1" maxlength="50" placeholder="2006" oninput="checkYearOfBirth()" required />
+        <br />
+        <span class="text-danger" id="reg_errorYearOfBirth"></span>
+        <br />
+
+        <button type="submit" name="submit" value="Register">Register</button>
+        <button type="reset" name="reset" value="reset" onclick="reset()">reset</button>
+    </form>
+
+    @Html.Raw(@Model.st)
+</main>
