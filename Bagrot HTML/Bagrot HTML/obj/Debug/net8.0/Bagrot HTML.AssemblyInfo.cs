@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bagrot HTML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08897b6d8022e6eb6790d7ab3b43f75e22b88771")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8debe077061ac6a23be06d3eb74af09901dff9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bagrot HTML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bagrot HTML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -36,7 +36,7 @@
         <br />
 
         <label for="reg_password" class="lable">User Password</label>
-        <input type="password" asp-for="user.Password" id="reg_password" min="1" maxlength="50" placeholder="your Password" oninput="checkPassword(); checkConfirmPassword()" required />
+        <input type="password" asp-for="user.Password" id="reg_password" min="1" maxlength="50" placeholder="your Password" oninput="checkPassword()" required />
         <br />
         <span class="text-danger" id="reg_errorPassword"></span>
         <br />
