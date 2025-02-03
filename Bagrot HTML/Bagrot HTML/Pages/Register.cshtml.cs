@@ -14,11 +14,15 @@ namespace Bagrot_HTML.Pages
 
         public void OnGet()
         {
+            st = "";
         }
 
 
         public void OnPost()
         {
+         
+            
+            
             st = "<table>";
             st += "<tr><td colspan='2' style='text-align:center'>Form Data</td></tr>";
             st += $"<tr><td>Id</td> <td>{user.Id}</td></tr>";

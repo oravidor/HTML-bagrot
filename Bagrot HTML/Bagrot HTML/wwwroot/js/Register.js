@@ -95,3 +95,15 @@ function clearTextFields() {
 
     textInputs.forEach(input => input.value = "");
 }
+
+function validateRegisterForm() {
+    let isFormOK = true;
+
+    isFormOK = checkConfirmPassword() && isFormOK;
+    isFormOK = checkFirstName() && isFormOK;
+    isFormOK = checkLastName() && isFormOK;
+    isFormOK = checkPassword() && isFormOK;
+    isFormOK = checkYearOfBirth() && isFormOK;
+
+    return isFormOK;
+}
