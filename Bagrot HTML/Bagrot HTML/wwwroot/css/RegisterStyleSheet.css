@@ -103,3 +103,8 @@ table {
 th, td {
     border-style: solid;
 }
+
+.radio{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,6 +1,8 @@
 using Bagrot_HTML.DataModel;
+using ClassicCarsRazor.DataModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Data;
 
 namespace Bagrot_HTML.Pages
 {
@@ -10,11 +12,20 @@ namespace Bagrot_HTML.Pages
         [BindProperty]
         public User? user { get; set; }
         public string st { get; set; } = "";
+        //public DataTable? dtPrefix {  get; set; }
+        public DataTable dtPrefix { get; set; } = new DataTable();
 
 
         public void OnGet()
         {
             st = "";
+
+            DBHelper dBHelper = new DBHelper();
+
+            string tableNamePrefix = "dtPrefix";
+            string sqlQueryPrefix = $"SELECT * FROM {tableNamePrefix}";
+            dtPrefix = dBHelper.RetrieveTable(sqlQueryPrefix, tableNamePrefix);
+             
         }
 
 

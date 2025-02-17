@@ -90,6 +90,45 @@ function checkYearOfBirth(){
     }
    
 }
+
+function checkRadioButtons() {
+    const radioButtons = document.getElementsByName('Gender');
+    const errorElement = document.getElementById("reg_errorGender");
+    let isSelected = false;
+
+    for (const radioButton of radioButtons) {
+        if (radioButton.checked) {
+            isSelected = true;
+            break;
+        }
+    }
+
+    if (!isSelected) {
+
+        errorElement.innerHTML = "You are need to selact a gender";
+
+        return false;
+    }
+
+    return true;
+}
+
+function checkPhoneNum() {
+    const phoneNumber = document.getElementById("reg_phone").value;
+    const errorElement = document.getElementById("reg_errorPhone");
+
+    errorElement.innerHTML = "";
+
+    let regExPhone = /^\d{10}$/;
+
+    if (!regExPhone.test(phoneNumber)) {
+        errorElement.innerHTML = "Invalid phone number";
+        return false;
+    }
+    return true;
+}
+
+
 function clearTextFields() {
     const textInputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='password'], input[type='number']");
 
@@ -98,12 +137,14 @@ function clearTextFields() {
 
 function validateRegisterForm() {
     let isFormOK = true;
-
+    return true;
     isFormOK = checkConfirmPassword() && isFormOK;
     isFormOK = checkFirstName() && isFormOK;
     isFormOK = checkLastName() && isFormOK;
     isFormOK = checkPassword() && isFormOK;
     isFormOK = checkYearOfBirth() && isFormOK;
+    isFormOK = checkRadioButtons() && isFormOK;
+    isFormOK = checkPhoneNum() && isFormOK;
 
     return isFormOK;
 }

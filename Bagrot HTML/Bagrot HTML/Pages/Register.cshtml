@@ -1,64 +1,128 @@
 ﻿@page
+@using System.Data;
 @model Bagrot_HTML.Pages.RegisterModel
 @{
     ViewData["Title"] = "Registration Form";
 }
 <link href="~/css/registerstylesheet.css" rel="stylesheet" />
 <link href="~/css/stylesheet.css" rel="stylesheet" />
+<script src="~/js/register.js"></script>
 
 <main>
-   
-    <script src="~/js/Register.js"></script>
+
 
     <h3 style="">User Registration Form</h3>
 
-    @* I need to ramove the comants from "required" at the end *@
-
     <form name="regfoem" method="post" onsubmit="return validateRegisterForm()" onreset="resetForm();">
-        <label for="reg_email" class="label">Email</label>
-        <input type="email" asp-for="user.Email" id="reg_email" maxlength="50" placeholder="yourEmail@gmail.com" oninput="checkEmail()" @* required *@ />
-        <br />
-        <span class="text-danger" id="reg_errorEmail"></span>
+        <div>@* email *@
+            <label for="reg_email" class="label">Email</label>
+            <input type="email" asp-for="user.Email" id="reg_email" maxlength="50" placeholder="yourEmail@gmail.com" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorEmail"></span>
+        </div>
+
         <br />
 
-        <label for="reg_firstName" class="lable">First Name</label>
-        <input type="text" asp-for="user.FirstName" id="reg_firstName" min="1" maxlength="50" placeholder="your first name" oninput="checkFirstName()" @* required *@ />
-        <br />
-        <span class="text-danger" id="reg_errorFirstName"></span>
+        <div>@* first name *@
+            <label for="reg_firstName" class="lable">First Name</label>
+            <input type="text" asp-for="user.FirstName" id="reg_firstName" min="1" maxlength="50" placeholder="your first name" oninput="checkFirstName()" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorFirstName"></span>
+        </div>
+
         <br />
 
-        <label for="reg_lastName" class="lable">Last Name</label>
-        <input type="text" asp-for="user.LastName" id="reg_lastName" min="1" maxlength="50" placeholder="your last name" oninput="checkLastName()" @* required *@ />
-        <br />
-        <span class="text-danger" id="reg_errorLastName"></span>
+        <div>@* last name *@
+            <label for="reg_lastName" class="lable">Last Name</label>
+            <input type="text" asp-for="user.LastName" id="reg_lastName" min="1" maxlength="50" placeholder="your last name" oninput="checkLastName()" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorLastName"></span>
+        </div>
+
         <br />
 
-        <label for="reg_userName" class="lable">User Name</label>
-        <input type="text" asp-for="user.UserName" id="reg_userName" min="1" maxlength="50" placeholder="your user name" oninput="checkUserName()" @* required *@ />
-        <br />
-        <span class="text-danger" id="reg_errorUserName"></span>
+        <div>@* user name *@
+            <label for="reg_userName" class="lable">User Name</label>
+            <input type="text" asp-for="user.UserName" id="reg_userName" min="1" maxlength="50" placeholder="your user name" oninput="checkUserName()" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorUserName"></span>
+        </div>
+
         <br />
 
-        <label for="reg_password" class="lable">User Password</label>
-        <input type="password" asp-for="user.Password" id="reg_password" min="1" maxlength="50" placeholder="your Password" oninput="checkPassword()" @* required *@ />
-        <br />
-        <span class="text-danger" id="reg_errorPassword"></span>
+        <div>@* password *@
+            <label for="reg_password" class="lable">User Password</label>
+            <input type="password" asp-for="user.Password" id="reg_password" min="1" maxlength="50" placeholder="your Password" oninput="checkPassword()" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorPassword"></span>
+        </div>
+
         <br />
 
-        <label for="reg_confirmPassword" class="lable">confirm User Password</label>
-        <input type="password" id="reg_confirmPassword" min="1" maxlength="50" placeholder="confirm your Password" oninput="checkConfirmPassword()" @* required *@ />
-        <br />
-        <span class="text-danger" id="reg_errorConfirmPassword"></span>
+        <div>@* confirm password *@
+            <label for="reg_confirmPassword" class="lable">confirm User Password</label>
+            <input type="password" id="reg_confirmPassword" min="1" maxlength="50" placeholder="confirm your Password" oninput="checkConfirmPassword()" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorConfirmPassword"></span>
+        </div>
+
         <br />
 
-        <label for="reg_yearOfBirth" class="lable">Year Of Birth</label>
-        <input type="number" asp-for="user.YearOfBirth" id="reg_yearOfBirth" min="1" maxlength="50" placeholder="2006" oninput="checkYearOfBirth()" @* required *@ />
-        <br />
-        <span class="text-danger" id="reg_errorYearOfBirth"></span>
+        <div>@* year of birth *@
+            <label for="reg_yearOfBirth" class="lable">Year Of Birth</label>
+            <input type="number" asp-for="user.YearOfBirth" id="reg_yearOfBirth" min="1" maxlength="50" placeholder="2006" oninput="checkYearOfBirth()" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorYearOfBirth"></span>
+        </div>
+
         <br />
 
-        <button type="submit" name="submit" value="Register">Register</button>
-        <button type="button" onclick="clearTextFields()">reset</button>
+        <div>@* gender *@
+            <label for="reg_gender" asp-for="user.Gender" style="margin-left: 5px; margin-right: 15px;">Gender:</label>
+
+            <div class="radio">
+                Male
+                <input asp-for="user.Gender" type="radio" value="Male" id="reg_gender" style="margin-right: 15px;">
+
+                Female
+                <input asp-for="user.Gender" type="radio" value="Female" style="margin-right: 15px;">
+
+                Other
+                <input asp-for="user.Gender" type="radio" value="Other" style="margin-right: 15px;">
+            </div>
+            <br />
+            <span class="text-danger" id="reg_errorGender"></span>
+        </div>
+
+        <br />
+
+        <div>
+            <select id="reg_prefix" asp-for="user.PrefixID" style="width: fit-content; margin-right: 15px;">
+
+                @foreach (DataRow row in Model.dtPrefix.Rows)
+                {
+                    <option asp-for="user.PrefixID" value='@row["PrefixId"]'>
+
+                        @row["PrefixId"]
+
+                    </option>
+                }
+            </select>
+
+
+            <label for="reg_phone" class="lable">Phone Number</label>
+            <input type="text" asp-for="user.Phone" id="reg_phone" maxlength="15" placeholder="Enter phone number" oninput="checkPhoneNum()" @* required *@ />
+            <br />
+            <span class="text-danger" id="reg_errorPhone"></span>
+
+        </div>
+
+        <br />
+
+        <div>
+            <button type="submit" name="submit" value="Register">Register</button>
+            <button type="button" onclick="clearTextFields()">reset</button>
+        </div>
     </form>
 
     @Html.Raw(@Model.st)
