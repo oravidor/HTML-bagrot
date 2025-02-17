@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s9mfmsq5jm"},{"Name":"integrity","Value":"sha256-gMQC\u002BEJmAt1c1PrTkgz2glIRjE8Cr8SJZqD4NmG1giE="},{"Name":"label","Value":"_content/Bagrot HTML/css/AdminStyleSheet.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"78"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gMQC\u002BEJmAt1c1PrTkgz2glIRjE8Cr8SJZqD4NmG1giE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 09:47:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/RegisterStyleSheet.5hflfg4on5.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\RegisterStyleSheet.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5hflfg4on5"},{"Name":"integrity","Value":"sha256-mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU="},{"Name":"label","Value":"_content/Bagrot HTML/css/RegisterStyleSheet.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1980"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 15:34:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/RegisterStyleSheet.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\RegisterStyleSheet.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jrIPepb0OkimCtQomYuk\u002Bv1Wvht4ltdxQA0HpkfEdMw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1978"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jrIPepb0OkimCtQomYuk\u002Bv1Wvht4ltdxQA0HpkfEdMw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 08:54:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/RegisterStyleSheet.igupz5zuli.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\RegisterStyleSheet.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"igupz5zuli"},{"Name":"integrity","Value":"sha256-jrIPepb0OkimCtQomYuk\u002Bv1Wvht4ltdxQA0HpkfEdMw="},{"Name":"label","Value":"_content/Bagrot HTML/css/RegisterStyleSheet.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1978"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jrIPepb0OkimCtQomYuk\u002Bv1Wvht4ltdxQA0HpkfEdMw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 08:54:46 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1980"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 15:34:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/StyleSheet.1xvcctyxyr.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StyleSheet.css'))</AssetFile>
@@ -120,17 +120,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rdzzh1pjl5"},{"Name":"integrity","Value":"sha256-30LYztYxGocyS\u002B\u002BtrcAmopZv5vpETnSWD9vDBw9MH9o="},{"Name":"label","Value":"_content/Bagrot HTML/js/Calculator.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3159"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u002230LYztYxGocyS\u002B\u002BtrcAmopZv5vpETnSWD9vDBw9MH9o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 13 Jan 2025 11:41:42 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/js/Register.h9kuy0kpu8.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Register.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h9kuy0kpu8"},{"Name":"integrity","Value":"sha256-FaQcAWj\u002BvIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s="},{"Name":"label","Value":"_content/Bagrot HTML/js/Register.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4324"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FaQcAWj\u002BvIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 13:06:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/js/Register.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Register.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FaQcAWj\u002BvIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4324"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022FaQcAWj\u002BvIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 13:06:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4486"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 15:14:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/js/Register.kl9o0z2kwq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kl9o0z2kwq"},{"Name":"integrity","Value":"sha256-mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI="},{"Name":"label","Value":"_content/Bagrot HTML/js/Register.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4486"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 15:14:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

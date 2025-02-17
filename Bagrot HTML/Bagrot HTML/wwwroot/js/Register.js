@@ -12,6 +12,7 @@
     }
     return true;
 }
+
 function checkLastName(){
     const lastName = document.getElementById("reg_lastName").value;
     const errorElement = document.getElementById("reg_errorLastName");
@@ -26,6 +27,7 @@ function checkLastName(){
     }
     return true;
 }
+
 function checkPassword() {
     const password = document.getElementById("reg_password").value;
     const errorElement = document.getElementById("reg_errorPassword");
@@ -59,6 +61,7 @@ function checkPassword() {
 
     return true;
 }
+
 function checkConfirmPassword() {
     const confirmPassword = document.getElementById("reg_confirmPassword").value;
     const password = document.getElementById("reg_password").value;
@@ -73,6 +76,7 @@ function checkConfirmPassword() {
         return false;
     }
 }
+
 function checkYearOfBirth(){
     const currentYear = new Date().getFullYear();
     const yearOfBirth = document.getElementById("reg_yearOfBirth").value;
@@ -92,9 +96,11 @@ function checkYearOfBirth(){
 }
 
 function checkRadioButtons() {
-    const radioButtons = document.getElementsByName('Gender');
+    const radioButtons = document.getElementsByName('user.Gender'); 
     const errorElement = document.getElementById("reg_errorGender");
     let isSelected = false;
+
+    errorElement.innerHTML = "";
 
     for (const radioButton of radioButtons) {
         if (radioButton.checked) {
@@ -104,9 +110,7 @@ function checkRadioButtons() {
     }
 
     if (!isSelected) {
-
-        errorElement.innerHTML = "You are need to selact a gender";
-
+        errorElement.innerHTML = "You need to select a gender"; 
         return false;
     }
 
@@ -128,16 +132,22 @@ function checkPhoneNum() {
     return true;
 }
 
-
 function clearTextFields() {
     const textInputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='password'], input[type='number']");
-
     textInputs.forEach(input => input.value = "");
+
+    const radioButtons = document.querySelectorAll("input[type='radio']");
+    radioButtons.forEach(radio => radio.checked = false);
+
+    const dropdowns = document.querySelectorAll("select");
+    dropdowns.forEach(select => select.selectedIndex = 0);
 }
+
+
 
 function validateRegisterForm() {
     let isFormOK = true;
-    return true;
+
     isFormOK = checkConfirmPassword() && isFormOK;
     isFormOK = checkFirstName() && isFormOK;
     isFormOK = checkLastName() && isFormOK;

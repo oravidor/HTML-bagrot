@@ -104,7 +104,7 @@ th, td {
     border-style: solid;
 }
 
-.radio{
+.flexBox{
     display: flex;
     flex-direction: row;
 }

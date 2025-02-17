@@ -249,6 +249,51 @@
       ]
     },
     {
+      "Route": "css/RegisterStyleSheet.5hflfg4on5.css",
+      "AssetFile": "css/RegisterStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 15:34:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5hflfg4on5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU="
+        },
+        {
+          "Name": "label",
+          "Value": "css/RegisterStyleSheet.css"
+        }
+      ]
+    },
+    {
       "Route": "css/RegisterStyleSheet.css",
       "AssetFile": "css/RegisterStyleSheet.css",
       "Selectors": [],
@@ -263,7 +308,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1978"
+          "Value": "1980"
         },
         {
           "Name": "Content-Type",
@@ -271,62 +316,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jrIPepb0OkimCtQomYuk+v1Wvht4ltdxQA0HpkfEdMw=\""
+          "Value": "\"mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 08:54:46 GMT"
+          "Value": "Mon, 17 Feb 2025 15:34:43 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jrIPepb0OkimCtQomYuk+v1Wvht4ltdxQA0HpkfEdMw="
-        }
-      ]
-    },
-    {
-      "Route": "css/RegisterStyleSheet.igupz5zuli.css",
-      "AssetFile": "css/RegisterStyleSheet.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1978"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jrIPepb0OkimCtQomYuk+v1Wvht4ltdxQA0HpkfEdMw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 08:54:46 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "igupz5zuli"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jrIPepb0OkimCtQomYuk+v1Wvht4ltdxQA0HpkfEdMw="
-        },
-        {
-          "Name": "label",
-          "Value": "css/RegisterStyleSheet.css"
+          "Value": "sha256-mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU="
         }
       ]
     },
@@ -823,51 +823,6 @@
       ]
     },
     {
-      "Route": "js/Register.h9kuy0kpu8.js",
-      "AssetFile": "js/Register.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4324"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FaQcAWj+vIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 13:06:36 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h9kuy0kpu8"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FaQcAWj+vIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s="
-        },
-        {
-          "Name": "label",
-          "Value": "js/Register.js"
-        }
-      ]
-    },
-    {
       "Route": "js/Register.js",
       "AssetFile": "js/Register.js",
       "Selectors": [],
@@ -882,7 +837,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4324"
+          "Value": "4486"
         },
         {
           "Name": "Content-Type",
@@ -890,17 +845,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FaQcAWj+vIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s=\""
+          "Value": "\"mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 13:06:36 GMT"
+          "Value": "Mon, 17 Feb 2025 15:14:57 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FaQcAWj+vIxE37bCkWNvWQRLb/YmKlXJWGWCiMIPn5s="
+          "Value": "sha256-mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI="
+        }
+      ]
+    },
+    {
+      "Route": "js/Register.kl9o0z2kwq.js",
+      "AssetFile": "js/Register.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 17 Feb 2025 15:14:57 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kl9o0z2kwq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mNLIWwUoQDVvDytyaEMRGn3rsB5jZE3NklUzSsHEffI="
+        },
+        {
+          "Name": "label",
+          "Value": "js/Register.js"
         }
       ]
     },

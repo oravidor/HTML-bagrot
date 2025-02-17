@@ -12,8 +12,8 @@ namespace Bagrot_HTML.Pages
         [BindProperty]
         public User? user { get; set; }
         public string st { get; set; } = "";
-        //public DataTable? dtPrefix {  get; set; }
         public DataTable dtPrefix { get; set; } = new DataTable();
+        public DataTable dtCityID { get; set; } = new DataTable();
 
 
         public void OnGet()
@@ -25,7 +25,11 @@ namespace Bagrot_HTML.Pages
             string tableNamePrefix = "dtPrefix";
             string sqlQueryPrefix = $"SELECT * FROM {tableNamePrefix}";
             dtPrefix = dBHelper.RetrieveTable(sqlQueryPrefix, tableNamePrefix);
-             
+
+            string tableNamedCityID = "dtCityID";
+            string sqlQuerydtCityID = $"SELECT * FROM {tableNamedCityID}";
+            dtCityID = dBHelper.RetrieveTable(sqlQuerydtCityID, tableNamedCityID);
+
         }
 
 
@@ -41,7 +45,7 @@ namespace Bagrot_HTML.Pages
             st += $"<tr><td>First Name</td> <td>{user.FirstName}</td></tr>";
             st += $"<tr><td>Last Name</td> <td>{user.LastName}</td></tr>";
             st += $"<tr><td>Email</td> <td>{user.Email}</td></tr>";
-            st += $"<tr><td>city Id<td> <td>{user.CityID}</td></tr>";
+            st += $"<tr><td>city Id</td> <td>{user.CityID}</td></tr>";
             st += $"<tr><td>prefix Id</td> <td>{user.PrefixID}</td></tr>";
             st += $"<tr><td>phone</td> <td>{user.Phone}</td></tr>";
             st += $"<tr><td>year Of Birth</td> <td>{user.YearOfBirth}</td></tr>";

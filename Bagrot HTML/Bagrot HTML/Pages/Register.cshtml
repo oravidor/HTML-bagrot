@@ -77,28 +77,50 @@
 
         <br />
 
-        <div>@* gender *@
-            <label for="reg_gender" asp-for="user.Gender" style="margin-left: 5px; margin-right: 15px;">Gender:</label>
+        <div class ="flexBox">
+            <div class="flexBox">@* gender *@
+                <label for="reg_gender" asp-for="user.Gender" style="margin-left: 5px; margin-right: 15px;">Gender:</label>
 
-            <div class="radio">
-                Male
-                <input asp-for="user.Gender" type="radio" value="Male" id="reg_gender" style="margin-right: 15px;">
+                <div>
+                    Male
+                    <input asp-for="user.Gender" type="radio" name="user.Gender" value="Male" id="reg_gender" style="margin-right: 15px;">
 
-                Female
-                <input asp-for="user.Gender" type="radio" value="Female" style="margin-right: 15px;">
+                    Female
+                    <input asp-for="user.Gender" type="radio" name="user.Gender" value="Female" style="margin-right: 15px;">
 
-                Other
-                <input asp-for="user.Gender" type="radio" value="Other" style="margin-right: 15px;">
+                    Other
+                    <input asp-for="user.Gender" type="radio" name="user.Gender" value="Other" style="margin-right: 15px;">
+                </div> 
             </div>
-            <br />
-            <span class="text-danger" id="reg_errorGender"></span>
+            <div >@* CityID *@
+                <select id="reg_CityID" asp-for="user.CityID" style="width: fit-content; margin-right: 15px;">
+
+                    <option></option>
+
+                    @foreach (DataRow row in Model.dtCityID.Rows)
+                    {
+                        <option asp-for="user.CityID" value='@row["Id"]'>
+
+                            @row["City"]
+
+                        </option>
+                    }
+                </select>
+            </div>
         </div>
+       
+        <br />
+        @* gender error *@
+        <span class="text-danger" id="reg_errorGender"></span>
 
         <br />
 
-        <div>
+        <div>@* prefix and phone num *@
+            <label for="reg_prefix" class="lable">Prefix</label>
             <select id="reg_prefix" asp-for="user.PrefixID" style="width: fit-content; margin-right: 15px;">
 
+                <option></option>
+                
                 @foreach (DataRow row in Model.dtPrefix.Rows)
                 {
                     <option asp-for="user.PrefixID" value='@row["PrefixId"]'>
@@ -109,9 +131,11 @@
                 }
             </select>
 
+            <br />
+            <br />
 
             <label for="reg_phone" class="lable">Phone Number</label>
-            <input type="text" asp-for="user.Phone" id="reg_phone" maxlength="15" placeholder="Enter phone number" oninput="checkPhoneNum()" @* required *@ />
+            <input type="number" asp-for="user.Phone" id="reg_phone" maxlength="15" placeholder="Enter phone number" oninput="checkPhoneNum()" @* required *@ />
             <br />
             <span class="text-danger" id="reg_errorPhone"></span>
 
