@@ -1,0 +1,38 @@
+﻿@page
+@using System.Data;
+@model Bagrot_HTML.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login Form";
+}
+<script src="~/js/login.js"></script>
+<link href="~/css/stylesheet.css" rel="stylesheet" />
+<link href="~/css/registerstylesheet.css" rel="stylesheet" />
+
+<main>
+    <form name="logfoem" method="post" onsubmit="return validateLoginForm()" onreset="resetForm();">
+        <div>@* email *@
+            <label for="log_email" class="label">Email</label>
+            <input type="text" name="log_email" maxlength="50" placeholder="yourEmail@gmail.com" oninput="checkEmail()" @* required *@ />
+            <br />
+            <span class="text-danger" id="log_errorEmail"></span>
+        </div>
+
+        <br />
+
+        <div>@* password *@
+            <label for="log_password" class="lable">User Password</label>
+            <input type="password" name="log_password" min="1" maxlength="50" placeholder="your Password" oninput="checkPassword()" @* required *@ />
+            <br />
+            <span class="text-danger" id="log_errorPassword"></span>
+        </div>
+
+        <br />
+
+        <div>
+            <button type="submit" name="submit" value="Register">Register</button>
+            <button type="button" onclick="clearTextFields()">reset</button>
+            <br />
+            <span class="text-danger">@Model.message</span>
+        </div>
+    </form>
+</main>

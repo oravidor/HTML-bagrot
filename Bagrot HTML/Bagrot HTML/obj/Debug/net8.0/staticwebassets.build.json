@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RZoFZ06W2Oa+0CjFM6oz/BT26FES4QTWdb7ozyRP+Y0=",
+  "Hash": "252QCIjYezKqnOTiqrEbXLQ+84+xNEIPHjjl2+HCKCI=",
   "Source": "Bagrot HTML",
   "BasePath": "_content/Bagrot HTML",
   "Mode": "Default",
@@ -80,6 +80,27 @@
       "OriginalItemSpec": "wwwroot\\css\\AdminStyleSheet.css"
     },
     {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "css/GalartStyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wn0iuyczof",
+      "Integrity": "JAYteJwHs9+1xH5BV9pEJW583XAQ0ZQrSBUTV+Ug51o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\GalartStyleSheet.css"
+    },
+    {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\RegisterStyleSheet.css",
       "SourceId": "Bagrot HTML",
       "SourceType": "Discovered",
@@ -94,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5hflfg4on5",
-      "Integrity": "mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU=",
+      "Fingerprint": "51bd4mzlw4",
+      "Integrity": "53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\RegisterStyleSheet.css"
@@ -206,6 +227,279 @@
       "OriginalItemSpec": "wwwroot\\image.ico"
     },
     {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaertImage1.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaertImage1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "njhmvyve38",
+      "Integrity": "U7nhiEVSOocfmGZAFSSknhwpEsUH7hJA80BJW+0GHtU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaertImage1.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage0.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage0#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "evfgv4p81y",
+      "Integrity": "pqy7f3PIubuaiXUsR12YsmGDhbrmE5KnQILKDP30fl0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage0.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage10.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage10#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v6v2evd65s",
+      "Integrity": "ZwSBlavh/CF71cnm1hDUaVfQblBcnoTmZ9m1oppb4bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage10.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage11.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage11#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e3kjdn1w6w",
+      "Integrity": "euV8f/uKZzxgQ+guU/IFCGWFVq5wjLCnPg4bIshPHGg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage11.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage12.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage12#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pbaqmf03yy",
+      "Integrity": "xegq7ZUJCys1pBVdD1i/aA9Nt25KvirqMOVpF8xbLec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage12.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage2.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zpxv70uwww",
+      "Integrity": "ifzJw/YAc1T10A7WHaVrAdj6X3u7knWUwtMCfwo+Big=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage2.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage3.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x5c357wvoh",
+      "Integrity": "VcH0ihAy/aBeixBuxt9OBqK1ZOBRHdHd7vOR73lx+7k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage3.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage4.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "diufo0o064",
+      "Integrity": "yx+OKgmJ2ZbUxmvcS7JH+vpbtFQP1OCda1bKWOWQoW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage4.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage5.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage5#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tk3gkb70he",
+      "Integrity": "HYYjwWyqGblTAKpxvrWZAIE9iVufRj5V3+s4ZgeNNl4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage5.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage6.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage6#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pmwmt4uwd6",
+      "Integrity": "sftSsOH+OkkcgZxS/M+/xCgchRnQ2BMXzve4eldbKbA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage6.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage7.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q110fcwhqj",
+      "Integrity": "TmTaeiB+iQsDWajX8HByeZopZhyMIM7I9esBWSt4iEY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage7.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage8.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cwpu3420ib",
+      "Integrity": "ZI4mQHNp6H6Bf+JGZFbLAsT25YzafGl7xk2fqahINH8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage8.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage9.png",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "image/galary/galaryImage9#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1n0ulxw7kf",
+      "Integrity": "Q4hbCV4HyZ2Hy2nBfwFf8F2P14YynDkuq5HLpUmvvI0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\galary\\galaryImage9.png"
+    },
+    {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\pageLogo.png",
       "SourceId": "Bagrot HTML",
       "SourceType": "Discovered",
@@ -225,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\pageLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Admin.js",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "js/Admin#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2p4mzkkmdb",
+      "Integrity": "RlQ1ZUAAFYIoD6ZlCNabtHXEwsZs2wHr9hYqfaU4r+Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Admin.js"
     },
     {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Calculator.js",
@@ -248,6 +563,48 @@
       "OriginalItemSpec": "wwwroot\\js\\Calculator.js"
     },
     {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "js/GalaryJavaScript#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69ehwuqn8g",
+      "Integrity": "ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\GalaryJavaScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "js/Login#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ubdtrpgwy5",
+      "Integrity": "RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Login.js"
+    },
+    {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",
       "SourceId": "Bagrot HTML",
       "SourceType": "Discovered",
@@ -262,8 +619,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rn390kpgtl",
-      "Integrity": "x9oI8JXGyxMOo9LcB0BwiQUM7hMR52YujUaNJKpuLKs=",
+      "Fingerprint": "xeue3p12oz",
+      "Integrity": "h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Register.js"
@@ -1735,8 +2092,8 @@
       ]
     },
     {
-      "Route": "css/RegisterStyleSheet.5hflfg4on5.css",
-      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\RegisterStyleSheet.css",
+      "Route": "css/GalartStyleSheet.css",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1745,7 +2102,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1980"
+          "Value": "324"
         },
         {
           "Name": "Content-Type",
@@ -1753,11 +2110,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU=\""
+          "Value": "\"JAYteJwHs9+1xH5BV9pEJW583XAQ0ZQrSBUTV+Ug51o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 15:34:43 GMT"
+          "Value": "Mon, 10 Mar 2025 12:40:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAYteJwHs9+1xH5BV9pEJW583XAQ0ZQrSBUTV+Ug51o="
+        }
+      ]
+    },
+    {
+      "Route": "css/GalartStyleSheet.wn0iuyczof.css",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JAYteJwHs9+1xH5BV9pEJW583XAQ0ZQrSBUTV+Ug51o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:40:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1767,7 +2161,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5hflfg4on5"
+          "Value": "wn0iuyczof"
+        },
+        {
+          "Name": "label",
+          "Value": "css/GalartStyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JAYteJwHs9+1xH5BV9pEJW583XAQ0ZQrSBUTV+Ug51o="
+        }
+      ]
+    },
+    {
+      "Route": "css/RegisterStyleSheet.51bd4mzlw4.css",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\RegisterStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 08:18:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "51bd4mzlw4"
         },
         {
           "Name": "label",
@@ -1775,7 +2214,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU="
+          "Value": "sha256-53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg="
         }
       ]
     },
@@ -1790,7 +2229,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1980"
+          "Value": "1930"
         },
         {
           "Name": "Content-Type",
@@ -1798,11 +2237,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU=\""
+          "Value": "\"53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 15:34:43 GMT"
+          "Value": "Thu, 20 Feb 2025 08:18:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1812,7 +2251,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mTCXGiriFuQPelwaJOahNyaCVdIbQclT0OXGk61rndU="
+          "Value": "sha256-53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg="
         }
       ]
     },
@@ -2227,6 +2666,1072 @@
       ]
     },
     {
+      "Route": "image/galary/galaertImage1.njhmvyve38.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaertImage1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U7nhiEVSOocfmGZAFSSknhwpEsUH7hJA80BJW+0GHtU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:15:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njhmvyve38"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaertImage1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U7nhiEVSOocfmGZAFSSknhwpEsUH7hJA80BJW+0GHtU="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaertImage1.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaertImage1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U7nhiEVSOocfmGZAFSSknhwpEsUH7hJA80BJW+0GHtU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:15:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U7nhiEVSOocfmGZAFSSknhwpEsUH7hJA80BJW+0GHtU="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage0.evfgv4p81y.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pqy7f3PIubuaiXUsR12YsmGDhbrmE5KnQILKDP30fl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:16:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "evfgv4p81y"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage0.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pqy7f3PIubuaiXUsR12YsmGDhbrmE5KnQILKDP30fl0="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage0.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage0.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18910"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pqy7f3PIubuaiXUsR12YsmGDhbrmE5KnQILKDP30fl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:16:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pqy7f3PIubuaiXUsR12YsmGDhbrmE5KnQILKDP30fl0="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage10.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage10.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZwSBlavh/CF71cnm1hDUaVfQblBcnoTmZ9m1oppb4bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:19:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZwSBlavh/CF71cnm1hDUaVfQblBcnoTmZ9m1oppb4bg="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage10.v6v2evd65s.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage10.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZwSBlavh/CF71cnm1hDUaVfQblBcnoTmZ9m1oppb4bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:19:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v6v2evd65s"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage10.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZwSBlavh/CF71cnm1hDUaVfQblBcnoTmZ9m1oppb4bg="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage11.e3kjdn1w6w.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"euV8f/uKZzxgQ+guU/IFCGWFVq5wjLCnPg4bIshPHGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3kjdn1w6w"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage11.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-euV8f/uKZzxgQ+guU/IFCGWFVq5wjLCnPg4bIshPHGg="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage11.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage11.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"euV8f/uKZzxgQ+guU/IFCGWFVq5wjLCnPg4bIshPHGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:19:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-euV8f/uKZzxgQ+guU/IFCGWFVq5wjLCnPg4bIshPHGg="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage12.pbaqmf03yy.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xegq7ZUJCys1pBVdD1i/aA9Nt25KvirqMOVpF8xbLec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:19:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pbaqmf03yy"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage12.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xegq7ZUJCys1pBVdD1i/aA9Nt25KvirqMOVpF8xbLec="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage12.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage12.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xegq7ZUJCys1pBVdD1i/aA9Nt25KvirqMOVpF8xbLec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:19:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xegq7ZUJCys1pBVdD1i/aA9Nt25KvirqMOVpF8xbLec="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage2.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8770"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ifzJw/YAc1T10A7WHaVrAdj6X3u7knWUwtMCfwo+Big=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:16:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ifzJw/YAc1T10A7WHaVrAdj6X3u7knWUwtMCfwo+Big="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage2.zpxv70uwww.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8770"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ifzJw/YAc1T10A7WHaVrAdj6X3u7knWUwtMCfwo+Big=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:16:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zpxv70uwww"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ifzJw/YAc1T10A7WHaVrAdj6X3u7knWUwtMCfwo+Big="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage3.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VcH0ihAy/aBeixBuxt9OBqK1ZOBRHdHd7vOR73lx+7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VcH0ihAy/aBeixBuxt9OBqK1ZOBRHdHd7vOR73lx+7k="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage3.x5c357wvoh.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16797"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VcH0ihAy/aBeixBuxt9OBqK1ZOBRHdHd7vOR73lx+7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:16:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5c357wvoh"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VcH0ihAy/aBeixBuxt9OBqK1ZOBRHdHd7vOR73lx+7k="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage4.diufo0o064.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yx+OKgmJ2ZbUxmvcS7JH+vpbtFQP1OCda1bKWOWQoW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "diufo0o064"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yx+OKgmJ2ZbUxmvcS7JH+vpbtFQP1OCda1bKWOWQoW4="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage4.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yx+OKgmJ2ZbUxmvcS7JH+vpbtFQP1OCda1bKWOWQoW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:17:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yx+OKgmJ2ZbUxmvcS7JH+vpbtFQP1OCda1bKWOWQoW4="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage5.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HYYjwWyqGblTAKpxvrWZAIE9iVufRj5V3+s4ZgeNNl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HYYjwWyqGblTAKpxvrWZAIE9iVufRj5V3+s4ZgeNNl4="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage5.tk3gkb70he.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage5.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HYYjwWyqGblTAKpxvrWZAIE9iVufRj5V3+s4ZgeNNl4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:17:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tk3gkb70he"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage5.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HYYjwWyqGblTAKpxvrWZAIE9iVufRj5V3+s4ZgeNNl4="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage6.pmwmt4uwd6.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sftSsOH+OkkcgZxS/M+/xCgchRnQ2BMXzve4eldbKbA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pmwmt4uwd6"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage6.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sftSsOH+OkkcgZxS/M+/xCgchRnQ2BMXzve4eldbKbA="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage6.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage6.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sftSsOH+OkkcgZxS/M+/xCgchRnQ2BMXzve4eldbKbA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sftSsOH+OkkcgZxS/M+/xCgchRnQ2BMXzve4eldbKbA="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage7.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TmTaeiB+iQsDWajX8HByeZopZhyMIM7I9esBWSt4iEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TmTaeiB+iQsDWajX8HByeZopZhyMIM7I9esBWSt4iEY="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage7.q110fcwhqj.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TmTaeiB+iQsDWajX8HByeZopZhyMIM7I9esBWSt4iEY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q110fcwhqj"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TmTaeiB+iQsDWajX8HByeZopZhyMIM7I9esBWSt4iEY="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage8.cwpu3420ib.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZI4mQHNp6H6Bf+JGZFbLAsT25YzafGl7xk2fqahINH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cwpu3420ib"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZI4mQHNp6H6Bf+JGZFbLAsT25YzafGl7xk2fqahINH8="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage8.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZI4mQHNp6H6Bf+JGZFbLAsT25YzafGl7xk2fqahINH8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZI4mQHNp6H6Bf+JGZFbLAsT25YzafGl7xk2fqahINH8="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage9.1n0ulxw7kf.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q4hbCV4HyZ2Hy2nBfwFf8F2P14YynDkuq5HLpUmvvI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1n0ulxw7kf"
+        },
+        {
+          "Name": "label",
+          "Value": "image/galary/galaryImage9.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q4hbCV4HyZ2Hy2nBfwFf8F2P14YynDkuq5HLpUmvvI0="
+        }
+      ]
+    },
+    {
+      "Route": "image/galary/galaryImage9.png",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage9.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q4hbCV4HyZ2Hy2nBfwFf8F2P14YynDkuq5HLpUmvvI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 11:18:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q4hbCV4HyZ2Hy2nBfwFf8F2P14YynDkuq5HLpUmvvI0="
+        }
+      ]
+    },
+    {
       "Route": "image/pageLogo.dbxvibwvq0.png",
       "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\pageLogo.png",
       "Selectors": [],
@@ -2305,6 +3810,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-lyeRecbWOE+JkuNoRUj5qvgtuo6NVMosobSE5O4NcdU="
+        }
+      ]
+    },
+    {
+      "Route": "js/Admin.2p4mzkkmdb.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Admin.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RlQ1ZUAAFYIoD6ZlCNabtHXEwsZs2wHr9hYqfaU4r+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 05:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2p4mzkkmdb"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Admin.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RlQ1ZUAAFYIoD6ZlCNabtHXEwsZs2wHr9hYqfaU4r+Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/Admin.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Admin.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RlQ1ZUAAFYIoD6ZlCNabtHXEwsZs2wHr9hYqfaU4r+Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Mar 2025 05:54:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RlQ1ZUAAFYIoD6ZlCNabtHXEwsZs2wHr9hYqfaU4r+Q="
         }
       ]
     },
@@ -2391,6 +3978,170 @@
       ]
     },
     {
+      "Route": "js/GalaryJavaScript.69ehwuqn8g.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 05:50:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69ehwuqn8g"
+        },
+        {
+          "Name": "label",
+          "Value": "js/GalaryJavaScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA="
+        }
+      ]
+    },
+    {
+      "Route": "js/GalaryJavaScript.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 05:50:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Login.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 09:58:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Login.ubdtrpgwy5.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 09:58:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ubdtrpgwy5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8="
+        }
+      ]
+    },
+    {
       "Route": "js/Register.js",
       "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",
       "Selectors": [],
@@ -2401,7 +4152,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4610"
+          "Value": "7322"
         },
         {
           "Name": "Content-Type",
@@ -2409,11 +4160,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x9oI8JXGyxMOo9LcB0BwiQUM7hMR52YujUaNJKpuLKs=\""
+          "Value": "\"h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 15:49:37 GMT"
+          "Value": "Mon, 24 Feb 2025 08:54:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2423,12 +4174,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-x9oI8JXGyxMOo9LcB0BwiQUM7hMR52YujUaNJKpuLKs="
+          "Value": "sha256-h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk="
         }
       ]
     },
     {
-      "Route": "js/Register.rn390kpgtl.js",
+      "Route": "js/Register.xeue3p12oz.js",
       "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2438,7 +4189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4610"
+          "Value": "7322"
         },
         {
           "Name": "Content-Type",
@@ -2446,11 +4197,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"x9oI8JXGyxMOo9LcB0BwiQUM7hMR52YujUaNJKpuLKs=\""
+          "Value": "\"h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 15:49:37 GMT"
+          "Value": "Mon, 24 Feb 2025 08:54:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2460,7 +4211,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rn390kpgtl"
+          "Value": "xeue3p12oz"
         },
         {
           "Name": "label",
@@ -2468,7 +4219,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-x9oI8JXGyxMOo9LcB0BwiQUM7hMR52YujUaNJKpuLKs="
+          "Value": "sha256-h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk="
         }
       ]
     },

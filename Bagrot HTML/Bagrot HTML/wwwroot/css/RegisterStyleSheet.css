@@ -57,8 +57,6 @@ input:focus {
 .text-danger {
     color: HSL(0, 70%, 50%);
     font-size: 12px;
-    margin-top: -10px;
-    margin-bottom: 10px;
 }
 
 button {

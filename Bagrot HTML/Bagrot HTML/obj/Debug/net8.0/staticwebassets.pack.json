@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\AdminStyleSheet.css"
     },
     {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\GalartStyleSheet.css"
+    },
+    {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\RegisterStyleSheet.css",
       "PackagePath": "staticwebassets\\css\\RegisterStyleSheet.css"
     },
@@ -33,12 +37,76 @@
       "PackagePath": "staticwebassets\\image.ico"
     },
     {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaertImage1.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaertImage1.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage0.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage0.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage10.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage10.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage11.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage11.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage12.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage12.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage2.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage2.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage3.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage3.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage4.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage4.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage5.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage5.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage6.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage6.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage7.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage7.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage8.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage8.png"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage9.png",
+      "PackagePath": "staticwebassets\\image\\galary\\galaryImage9.png"
+    },
+    {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\pageLogo.png",
       "PackagePath": "staticwebassets\\image\\pageLogo.png"
     },
     {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Admin.js",
+      "PackagePath": "staticwebassets\\js\\Admin.js"
+    },
+    {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Calculator.js",
       "PackagePath": "staticwebassets\\js\\Calculator.js"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
+      "PackagePath": "staticwebassets\\js\\GalaryJavaScript.js"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
+      "PackagePath": "staticwebassets\\js\\Login.js"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",

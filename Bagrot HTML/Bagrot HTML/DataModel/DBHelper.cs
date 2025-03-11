@@ -53,6 +53,42 @@ namespace ClassicCarsRazor.DataModel
             ad.Fill(dt);
             return dt;
         }
-        
+
+        public int Insert(User user, string table)
+        {
+            SqlConnection con = new SqlConnection(conString);
+
+            string SQLStr = $"SELECT * FROM {table} WHERE Email = '{user.Email}'";
+            SqlCommand cmd = new SqlCommand(SQLStr, con);
+
+            DataSet ds = new DataSet();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(ds, table);
+
+            if (ds.Tables[table].Rows.Count > 0)
+            {
+                return -1;
+            }
+
+            DataRow dr = ds.Tables[table].NewRow();
+            dr["Email"] = user.Email;
+            dr["Password"] = user.Password;
+            dr["FirstName"] = user.FirstName;
+            dr["LastName"] = user.LastName;
+            dr["PrefixID"] = user.PrefixID;
+            dr["Phone"] = user.Phone;
+            dr["CityID"] = user.CityID;
+            dr["Gender"] = user.Gender;
+            dr["UserName"] = user.UserName;
+            dr["YearOfBirth"] = user.YearOfBirth;
+
+            ds.Tables[table].Rows.Add(dr);
+
+            SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
+            int numRowsAffected = adapter.Update(ds, table);
+            return numRowsAffected;
+        }
+
     }
 }

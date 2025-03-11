@@ -36,12 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZm9vZCBsYWJlbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Galary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/avido/source/repos/HTML-bagrot/Bagrot HTML/Bagrot HTML/Pages/Privacy.cshtml]

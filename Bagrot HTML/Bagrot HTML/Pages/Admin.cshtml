@@ -6,6 +6,41 @@
 }
 <link href="~/css/stylesheet.css" rel="stylesheet" />
 <link href="~/css/adminstylesheet.css" rel="stylesheet" />
+<script src="~/js/admin.js"></script>
+
+<form method="post">
+    <button type="submit" onclick="clearTextFields()">Reset</button>
+
+    <label for="reg_CityID"  style="margin-left: 5px; margin-right: 15px;">Filter:</label>
+    <select id="filterColumn" name="filterColumn" style="width: fit-content; margin-right: 15px;">
+
+        <option></option>
+
+        @foreach (DataRow row in Model.dtFilterColumn.Rows)
+        {
+            <option value='@row["filterCode"]'>
+
+                @row["filterName"]
+
+            </option>
+        }
+    </select>
+    <input type="text" name="filterValue" id="filterLike" min="1" maxlength="50" />
+
+    <button type="submit" name="submit" value="Search">Search</button>
+
+    <br />
+    <br />
+
+    <button type="submit" onclick="clearTextFields()">Reset</button>
+
+    <label for="delete" style="margin-left: 5px; margin-right: 15px;">Delete:</label>
+    <input type="text" name="delete" id="delete" min="1" maxlength="50" />
+
+    <button type="submit" name="submit" value="Delete" >Delete</button>
+</form>
+
+
 
 <div class="box">
     <table>
