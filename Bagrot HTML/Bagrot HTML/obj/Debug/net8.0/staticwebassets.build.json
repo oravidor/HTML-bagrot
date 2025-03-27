@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "252QCIjYezKqnOTiqrEbXLQ+84+xNEIPHjjl2+HCKCI=",
+  "Hash": "zplsbcw3uJgXApJ+/bEl3Q5U78HMiO0Q2whO4UhrLbM=",
   "Source": "Bagrot HTML",
   "BasePath": "_content/Bagrot HTML",
   "Mode": "Default",
@@ -577,8 +577,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "69ehwuqn8g",
-      "Integrity": "ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA=",
+      "Fingerprint": "v8ys520zez",
+      "Integrity": "oTa5XxIbhLDfFlPyDCDHltrQK1KSlY44nkV+9X9MmWE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\GalaryJavaScript.js"
@@ -598,8 +598,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ubdtrpgwy5",
-      "Integrity": "RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8=",
+      "Fingerprint": "hxubrn1oh3",
+      "Integrity": "VTjj6g4xUUswcAM6Ewef8o+1YAMSAhHcEe1Ywe//tko=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Login.js"
@@ -624,27 +624,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Register.js"
-    },
-    {
-      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\site.js",
-      "SourceId": "Bagrot HTML",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
-      "BasePath": "_content/Bagrot HTML",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -3978,51 +3957,6 @@
       ]
     },
     {
-      "Route": "js/GalaryJavaScript.69ehwuqn8g.js",
-      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "98"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 05:50:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "69ehwuqn8g"
-        },
-        {
-          "Name": "label",
-          "Value": "js/GalaryJavaScript.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA="
-        }
-      ]
-    },
-    {
       "Route": "js/GalaryJavaScript.js",
       "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
       "Selectors": [],
@@ -4033,7 +3967,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "98"
+          "Value": "121"
         },
         {
           "Name": "Content-Type",
@@ -4041,11 +3975,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA=\""
+          "Value": "\"oTa5XxIbhLDfFlPyDCDHltrQK1KSlY44nkV+9X9MmWE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Mar 2025 05:50:26 GMT"
+          "Value": "Tue, 11 Mar 2025 06:02:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4055,7 +3989,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ahqnfn1YMUV48UNVS9CxLQ589Xx0NqHGLvBVJIKp2oA="
+          "Value": "sha256-oTa5XxIbhLDfFlPyDCDHltrQK1KSlY44nkV+9X9MmWE="
+        }
+      ]
+    },
+    {
+      "Route": "js/GalaryJavaScript.v8ys520zez.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oTa5XxIbhLDfFlPyDCDHltrQK1KSlY44nkV+9X9MmWE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 06:02:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v8ys520zez"
+        },
+        {
+          "Name": "label",
+          "Value": "js/GalaryJavaScript.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oTa5XxIbhLDfFlPyDCDHltrQK1KSlY44nkV+9X9MmWE="
+        }
+      ]
+    },
+    {
+      "Route": "js/Login.hxubrn1oh3.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VTjj6g4xUUswcAM6Ewef8o+1YAMSAhHcEe1Ywe//tko=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 11:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxubrn1oh3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VTjj6g4xUUswcAM6Ewef8o+1YAMSAhHcEe1Ywe//tko="
         }
       ]
     },
@@ -4070,7 +4094,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2426"
+          "Value": "2432"
         },
         {
           "Name": "Content-Type",
@@ -4078,11 +4102,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8=\""
+          "Value": "\"VTjj6g4xUUswcAM6Ewef8o+1YAMSAhHcEe1Ywe//tko=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 09:58:02 GMT"
+          "Value": "Thu, 27 Mar 2025 11:37:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4092,52 +4116,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8="
-        }
-      ]
-    },
-    {
-      "Route": "js/Login.ubdtrpgwy5.js",
-      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2426"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 09:58:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ubdtrpgwy5"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Login.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-RhgOkEjOOYyN1hpY5+GwWO4fD9+Il9l8JlgHy58rKr8="
+          "Value": "sha256-VTjj6g4xUUswcAM6Ewef8o+1YAMSAhHcEe1Ywe//tko="
         }
       ]
     },
@@ -4220,88 +4199,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 19:37:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 19:37:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
         }
       ]
     },

@@ -25,7 +25,6 @@ wwwroot\js\Calculator.js
 wwwroot\js\GalaryJavaScript.js
 wwwroot\js\Login.js
 wwwroot\js\Register.js
-wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

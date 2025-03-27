@@ -1,4 +1,24 @@
-﻿function checkPassword() {
+﻿function checkEmail() {
+    const email = document.querySelector("[name='log_email']").value;
+    const errorElement = document.getElementById("log_errorEmail");
+
+    errorElement.innerHTML = "";
+
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (email === "") {
+        errorElement.innerHTML = "This field cannot be empty.";
+        return false;
+    }
+
+    if (!emailPattern.test(email)) {
+        errorElement.innerHTML = "Invalid email address.";
+        return false;
+    }
+    return true;
+}
+
+function checkPassword() {
     const password = document.getElementsByName("log_password").value;
     const errorElement = document.getElementById("log_errorPassword");
 
@@ -34,26 +54,6 @@
         return false;
     }
 
-    return true;
-}
-
-function checkEmail() {
-    const email = document.getElementsByName("log_email").value;
-    const errorElement = document.getElementById("log_errorEmail");
-
-    errorElement.innerHTML = "";
-
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-
-    if (email === "") {
-        errorElement.innerHTML = "This field cannot be empty.";
-        return false;
-    }
-
-    if (!emailPattern.test(email)) {
-        errorElement.innerHTML = "Invalid email address.";
-        return false;
-    }
     return true;
 }
 

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\wwwroot\\js\\galaryjavascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\wwwroot\\js\\galaryjavascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\wwwroot\\css\\galartstylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\wwwroot\\css\\galartstylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\pages\\galary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\galary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|c:\\users\\avido\\source\\repos\\html-bagrot\\bagrot html\\bagrot html\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3923E0B5-70A3-4284-9CDF-5E12E8333D15}|Bagrot HTML\\Bagrot HTML.csproj|solutionrelative:bagrot html\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +30,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "Bagrot HTML\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA+wCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:47:50.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GalaryJavaScript.js",
-              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
-              "RelativeDocumentMoniker": "Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
-              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
-              "RelativeToolTip": "Bagrot HTML\\wwwroot\\js\\GalaryJavaScript.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
+              "RelativeDocumentMoniker": "Bagrot HTML\\wwwroot\\js\\Login.js",
+              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Login.js",
+              "RelativeToolTip": "Bagrot HTML\\wwwroot\\js\\Login.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-11T05:45:03.921Z",
+              "WhenOpened": "2025-03-24T08:47:42.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GalartStyleSheet.css",
-              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
-              "RelativeDocumentMoniker": "Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
-              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
-              "RelativeToolTip": "Bagrot HTML\\wwwroot\\css\\GalartStyleSheet.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-10T11:10:25.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Galary.cshtml",
-              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Galary.cshtml",
-              "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\Galary.cshtml",
-              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Galary.cshtml",
-              "RelativeToolTip": "Bagrot HTML\\Pages\\Galary.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA0AAABjAAAAAAAAAA==",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "Bagrot HTML\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\Pages\\Login.cshtml",
+              "RelativeToolTip": "Bagrot HTML\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-10T11:05:37.606Z",
+              "WhenOpened": "2025-03-24T08:47:16.922Z",
               "EditorCaption": ""
             }
           ]

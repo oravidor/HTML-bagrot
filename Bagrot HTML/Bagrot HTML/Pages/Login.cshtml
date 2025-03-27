@@ -12,7 +12,7 @@
     <form name="logfoem" method="post" onsubmit="return validateLoginForm()" onreset="resetForm();">
         <div>@* email *@
             <label for="log_email" class="label">Email</label>
-            <input type="text" name="log_email" maxlength="50" placeholder="yourEmail@gmail.com" oninput="checkEmail()" @* required *@ />
+            <input type="text" name="log_email" id="log_email" maxlength="50" placeholder="yourEmail@gmail.com" oninput="checkEmail()" @* required *@ />
             <br />
             <span class="text-danger" id="log_errorEmail"></span>
         </div>
