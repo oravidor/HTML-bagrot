@@ -1,5 +1,5 @@
 using Bagrot_HTML.DataModel;
-using ClassicCarsRazor.DataModel;
+using Bagrot.DataModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data;

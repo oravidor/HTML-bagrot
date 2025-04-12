@@ -1,5 +1,5 @@
 ﻿function checkEmail() {
-    const email = document.querySelector("[name='log_email']").value;
+    const email = document.getElementById("log_email").value;
     const errorElement = document.getElementById("log_errorEmail");
 
     errorElement.innerHTML = "";
@@ -19,7 +19,7 @@
 }
 
 function checkPassword() {
-    const password = document.getElementsByName("log_password").value;
+    const password = document.getElementById("log_password").value;
     const errorElement = document.getElementById("log_errorPassword");
 
     errorElement.innerHTML = "";

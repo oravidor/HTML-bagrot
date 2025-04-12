@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Bagrot HTML.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Bagrot HTML.1pajhbgxf1.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\HTML\\CalculatorHTML.html",
       "PackagePath": "staticwebassets\\HTML\\CalculatorHTML.html"
     },
@@ -29,12 +25,12 @@
       "PackagePath": "staticwebassets\\css\\StyleSheetCalculator.css"
     },
     {
-      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image.ico",
-      "PackagePath": "staticwebassets\\image.ico"
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image.png",
+      "PackagePath": "staticwebassets\\image.png"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaertImage1.png",
@@ -87,10 +83,6 @@
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\galary\\galaryImage9.png",
       "PackagePath": "staticwebassets\\image\\galary\\galaryImage9.png"
-    },
-    {
-      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\image\\pageLogo.png",
-      "PackagePath": "staticwebassets\\image\\pageLogo.png"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Admin.js",

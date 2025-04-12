@@ -3,9 +3,9 @@ wwwroot\css\GalartStyleSheet.css
 wwwroot\css\RegisterStyleSheet.css
 wwwroot\css\StyleSheet.css
 wwwroot\css\StyleSheetCalculator.css
-wwwroot\favicon.ico
+wwwroot\favicon.png
 wwwroot\HTML\CalculatorHTML.html
-wwwroot\image.ico
+wwwroot\image.png
 wwwroot\image\galary\galaertImage1.png
 wwwroot\image\galary\galaryImage0.png
 wwwroot\image\galary\galaryImage10.png
@@ -19,7 +19,6 @@ wwwroot\image\galary\galaryImage6.png
 wwwroot\image\galary\galaryImage7.png
 wwwroot\image\galary\galaryImage8.png
 wwwroot\image\galary\galaryImage9.png
-wwwroot\image\pageLogo.png
 wwwroot\js\Admin.js
 wwwroot\js\Calculator.js
 wwwroot\js\GalaryJavaScript.js

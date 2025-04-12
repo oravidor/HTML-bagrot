@@ -10,7 +10,7 @@ using System.Security.Cryptography.X509Certificates;
 
 
 
-namespace ClassicCarsRazor.DataModel
+namespace Bagrot.DataModel
 {
     public class DBHelper
     {
