@@ -94,12 +94,12 @@
         <br />
             
         <div >@* CityID *@
-            <label for="reg_CityID" asp-for="user.CityID" style="margin-left: 5px; margin-right: 15px;">City Name:</label>
-            <select id="reg_CityID" asp-for="user.CityID" oninput="checkCityID()" style="width: fit-content; margin-right: 15px;">
+            <label for="reg_City" asp-for="user.City" style="margin-left: 5px; margin-right: 15px;">City Name:</label>
+            <select id="reg_City" asp-for="user.City" oninput="checkCityID()" style="width: fit-content; margin-right: 15px;">
 
-                    <option></option>
+                <option>Select City</option>
 
-                    @foreach (DataRow row in Model.dtCityID.Rows)
+                    @foreach (DataRow row in Model.dtCity.Rows)
                     {
                         <option asp-for="user.CityID" value='@row["City"]'>
 
@@ -108,22 +108,22 @@
                         </option>
                     }
                 </select>
-                <span class="text-danger" id="reg_errorCityID"></span>
+                <span class="text-danger" id="reg_errorCity"></span>
             </div>
        
         <br />
 
         <div>@* prefix and phone num *@
             <label for="reg_prefix" class="lable">Prefix:</label>
-            <select id="reg_prefix" asp-for="user.PrefixID" oninput="checkPrefix()" style="width: fit-content; margin-right: 15px;">
+            <select id="reg_prefix" asp-for="user.Prefix" oninput="checkPrefix()" style="width: fit-content; margin-right: 15px;">
 
                 <option></option>
                 
                 @foreach (DataRow row in Model.dtPrefix.Rows)
                 {
-                    <option asp-for="user.PrefixID" value='@row["PrefixId"]'>
+                    <option asp-for="user.PrefixID" value='@row["Prefix"]'>
 
-                        @row["PrefixId"]
+                        @row["Prefix"]
 
                     </option>
                 }

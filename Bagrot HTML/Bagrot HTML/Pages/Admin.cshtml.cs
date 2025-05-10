@@ -10,7 +10,7 @@ namespace Bagrot_HTML.Pages
     {
         public DataTable? DataTableUsers { get; set; }
         public DataTable dtFilterColumn { get; set; } = new DataTable();
-        public string[] displayColumns { get; set; } = ["Id", "Email", "City", "PrefixID", "Phone", "FirstName", "LastName", "YearOfBirth", "Gender", "Password", "UserName"];
+        public string[] displayColumns { get; set; } = ["Id", "Email", "City", "Prefix", "Phone", "FirstName", "LastName", "YearOfBirth", "Gender", "Password", "UserName"];
 
         public IActionResult OnGet()
         {

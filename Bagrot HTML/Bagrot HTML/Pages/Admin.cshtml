@@ -25,6 +25,8 @@
             </option>
         }
     </select>
+    <br />
+    <br />
     <input type="text" name="filterValue" id="filterLike" min="1" maxlength="50" />
 
     <button type="submit" name="submit" value="Search">Search</button>
@@ -35,6 +37,8 @@
     <button type="submit" onclick="clearTextFields()">Reset</button>
 
     <label for="delete" style="margin-left: 5px; margin-right: 15px;">Delete by ID:</label>
+    <br />
+    <br />
     <input type="text" name="delete" id="delete" min="1" maxlength="50" />
 
     <button type="submit" name="submit" value="Delete" >Delete</button>
@@ -53,14 +57,17 @@
             </tr>
         </thead>
         <tbody class="table-group-divider">
-            @foreach (DataRow row in Model.DataTableUsers.Rows)
+            @if (Model.DataTableUsers != null)
             {
-                <tr>
-                    @foreach (DataColumn column in Model.DataTableUsers.Columns)
-                    {
-                        <td>@row[column]</td>
-                    }
-                </tr>
+                @foreach (DataRow row in Model.DataTableUsers.Rows)
+                {
+                    <tr>
+                        @foreach (DataColumn column in Model.DataTableUsers.Columns)
+                        {
+                            <td>@row[column]</td>
+                        }
+                    </tr>
+                }
             }
         </tbody>
         <tfoot class="table-group-divider">

@@ -1,5 +1,25 @@
 ﻿<!DOCTYPE html>
 
+<script>
+      function updateDateTime() {
+      const now = new Date();
+
+      const time = now.toLocaleTimeString('en-GB', { hour12: false });
+      const date = now.toLocaleDateString('en-GB', {
+        weekday: 'short',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric'
+      });
+
+      document.getElementById('datetime').textContent = `${date}  |  ${time}`;
+    }
+
+    setInterval(updateDateTime, 100);
+    updateDateTime(); // Initial call
+</script>
+
+
 
 <html>
 <head>
@@ -17,7 +37,10 @@
                 <li><a asp-page="/Admin">Admin</a></li>
                 <li><a asp-page="/Register">Register</a></li>
                 <li><a asp-page="/Login">Login</a></li>
+                <li><a asp-page="/UserDetailsUpdate">User Details Update</a></li>
             </ul>
+            <div id="datetime" style="font-size: 1.5rem; font-family: monospace;"></div>
+
         </nav>
 
         <div>

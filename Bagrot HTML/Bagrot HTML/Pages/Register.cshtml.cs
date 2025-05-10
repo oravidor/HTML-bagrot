@@ -16,7 +16,7 @@ namespace Bagrot_HTML.Pages
         public User? user { get; set; }
         public string errorMessage { get; set; } = "";
         public DataTable dtPrefix { get; set; } = new DataTable();
-        public DataTable dtCityID { get; set; } = new DataTable();
+        public DataTable dtCity { get; set; } = new DataTable();
 
 
         public void OnGet()
@@ -30,7 +30,7 @@ namespace Bagrot_HTML.Pages
 
             string tableNamedCityID = "dtCityID";
             string sqlQuerydtCityID = $"SELECT * FROM {tableNamedCityID}";
-            dtCityID = dBHelper.RetrieveTable(sqlQuerydtCityID, tableNamedCityID);
+            dtCity = dBHelper.RetrieveTable(sqlQuerydtCityID, tableNamedCityID);
         }
 
         public IActionResult OnPost()

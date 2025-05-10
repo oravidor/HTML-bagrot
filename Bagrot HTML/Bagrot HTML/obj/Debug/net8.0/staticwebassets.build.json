@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+p2sWsadjgONpRY5pMlvdMyoS6jhmHz4ovvCdiRndmM=",
+  "Hash": "7W7TK2jELkBos0uF4AheiTOgTib/mdd5mSIOucL0uzI=",
   "Source": "Bagrot HTML",
   "BasePath": "_content/Bagrot HTML",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s9mfmsq5jm",
-      "Integrity": "gMQC+EJmAt1c1PrTkgz2glIRjE8Cr8SJZqD4NmG1giE=",
+      "Fingerprint": "f0r0wgpfoa",
+      "Integrity": "QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\AdminStyleSheet.css"
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\StyleSheetCalculator.css"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\UserDetailsUpdateStyleSheet.css",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "css/UserDetailsUpdateStyleSheet#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "51bd4mzlw4",
+      "Integrity": "53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\UserDetailsUpdateStyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\favicon.png",
@@ -556,11 +577,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xeue3p12oz",
-      "Integrity": "h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk=",
+      "Fingerprint": "mcko42qf4g",
+      "Integrity": "Bqm+ubW0ndYMd4OXHb4h0Qrmk+s8vujXQR4RzP8hbrI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Register.js"
+    },
+    {
+      "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\UserDetailsUpdate.js",
+      "SourceId": "Bagrot HTML",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\",
+      "BasePath": "_content/Bagrot HTML",
+      "RelativePath": "js/UserDetailsUpdate#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mzad90asu6",
+      "Integrity": "Hj4UWzgO2x+hTv7YbnDH8k9rHhgGoUHlkHvSdGbtAKE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\UserDetailsUpdate.js"
     },
     {
       "Identity": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1772,7 +1814,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78"
+          "Value": "490"
         },
         {
           "Name": "Content-Type",
@@ -1780,11 +1822,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gMQC+EJmAt1c1PrTkgz2glIRjE8Cr8SJZqD4NmG1giE=\""
+          "Value": "\"QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 09:47:30 GMT"
+          "Value": "Tue, 06 May 2025 11:21:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1794,12 +1836,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gMQC+EJmAt1c1PrTkgz2glIRjE8Cr8SJZqD4NmG1giE="
+          "Value": "sha256-QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g="
         }
       ]
     },
     {
-      "Route": "css/AdminStyleSheet.s9mfmsq5jm.css",
+      "Route": "css/AdminStyleSheet.f0r0wgpfoa.css",
       "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\AdminStyleSheet.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1809,7 +1851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "78"
+          "Value": "490"
         },
         {
           "Name": "Content-Type",
@@ -1817,11 +1859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gMQC+EJmAt1c1PrTkgz2glIRjE8Cr8SJZqD4NmG1giE=\""
+          "Value": "\"QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Dec 2024 09:47:30 GMT"
+          "Value": "Tue, 06 May 2025 11:21:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1831,7 +1873,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s9mfmsq5jm"
+          "Value": "f0r0wgpfoa"
         },
         {
           "Name": "label",
@@ -1839,7 +1881,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gMQC+EJmAt1c1PrTkgz2glIRjE8Cr8SJZqD4NmG1giE="
+          "Value": "sha256-QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g="
         }
       ]
     },
@@ -2168,6 +2210,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-EIn/idJfxBtrvP9hq1BxHSI6YxFXmzmQGUk1luBMBHk="
+        }
+      ]
+    },
+    {
+      "Route": "css/UserDetailsUpdateStyleSheet.51bd4mzlw4.css",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\UserDetailsUpdateStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 09:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "51bd4mzlw4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/UserDetailsUpdateStyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg="
+        }
+      ]
+    },
+    {
+      "Route": "css/UserDetailsUpdateStyleSheet.css",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\UserDetailsUpdateStyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 09:09:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg="
         }
       ]
     },
@@ -3822,7 +3946,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7322"
+          "Value": "7313"
         },
         {
           "Name": "Content-Type",
@@ -3830,11 +3954,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk=\""
+          "Value": "\"Bqm+ubW0ndYMd4OXHb4h0Qrmk+s8vujXQR4RzP8hbrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 08:54:35 GMT"
+          "Value": "Sat, 10 May 2025 09:04:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3844,12 +3968,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk="
+          "Value": "sha256-Bqm+ubW0ndYMd4OXHb4h0Qrmk+s8vujXQR4RzP8hbrI="
         }
       ]
     },
     {
-      "Route": "js/Register.xeue3p12oz.js",
+      "Route": "js/Register.mcko42qf4g.js",
       "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3859,7 +3983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7322"
+          "Value": "7313"
         },
         {
           "Name": "Content-Type",
@@ -3867,11 +3991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk=\""
+          "Value": "\"Bqm+ubW0ndYMd4OXHb4h0Qrmk+s8vujXQR4RzP8hbrI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Feb 2025 08:54:35 GMT"
+          "Value": "Sat, 10 May 2025 09:04:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3881,7 +4005,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xeue3p12oz"
+          "Value": "mcko42qf4g"
         },
         {
           "Name": "label",
@@ -3889,7 +4013,89 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-h/cOv3tY01OmLrcioacPDH28ofDAC4zv8JeX7pz1jhk="
+          "Value": "sha256-Bqm+ubW0ndYMd4OXHb4h0Qrmk+s8vujXQR4RzP8hbrI="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserDetailsUpdate.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\UserDetailsUpdate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hj4UWzgO2x+hTv7YbnDH8k9rHhgGoUHlkHvSdGbtAKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 08:38:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hj4UWzgO2x+hTv7YbnDH8k9rHhgGoUHlkHvSdGbtAKE="
+        }
+      ]
+    },
+    {
+      "Route": "js/UserDetailsUpdate.mzad90asu6.js",
+      "AssetFile": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\UserDetailsUpdate.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hj4UWzgO2x+hTv7YbnDH8k9rHhgGoUHlkHvSdGbtAKE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 08:38:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mzad90asu6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/UserDetailsUpdate.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hj4UWzgO2x+hTv7YbnDH8k9rHhgGoUHlkHvSdGbtAKE="
         }
       ]
     },

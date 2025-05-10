@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\StyleSheetCalculator.css"
     },
     {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\css\\UserDetailsUpdateStyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\UserDetailsUpdateStyleSheet.css"
+    },
+    {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
@@ -103,6 +107,10 @@
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\Register.js",
       "PackagePath": "staticwebassets\\js\\Register.js"
+    },
+    {
+      "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\js\\UserDetailsUpdate.js",
+      "PackagePath": "staticwebassets\\js\\UserDetailsUpdate.js"
     },
     {
       "Id": "C:\\Users\\avido\\source\\repos\\HTML-bagrot\\Bagrot HTML\\Bagrot HTML\\wwwroot\\lib\\bootstrap\\LICENSE",

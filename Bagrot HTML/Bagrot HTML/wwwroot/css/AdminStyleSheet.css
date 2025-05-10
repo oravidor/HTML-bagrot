@@ -4,3 +4,34 @@
 th, td {
     border-style: solid;
 }
+
+
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: HSL(0, 0%, 30%);
+}
+
+
+
+input:focus {
+    border-color: HSL(210, 50%, 50%);
+    outline: none;
+    box-shadow: 0 0 5px HSL(210, 50%, 75%);
+}
+
+.text-danger {
+    color: HSL(0, 70%, 50%);
+    font-size: 12px;
+}
+
+
+
+
+
+button[type="submit"]:hover {
+    background-color: HSL(210°, 14%, 41%);
+}
+

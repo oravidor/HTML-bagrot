@@ -3,6 +3,7 @@ wwwroot\css\GalartStyleSheet.css
 wwwroot\css\RegisterStyleSheet.css
 wwwroot\css\StyleSheet.css
 wwwroot\css\StyleSheetCalculator.css
+wwwroot\css\UserDetailsUpdateStyleSheet.css
 wwwroot\favicon.png
 wwwroot\HTML\CalculatorHTML.html
 wwwroot\image.png
@@ -24,6 +25,7 @@ wwwroot\js\Calculator.js
 wwwroot\js\GalaryJavaScript.js
 wwwroot\js\Login.js
 wwwroot\js\Register.js
+wwwroot\js\UserDetailsUpdate.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

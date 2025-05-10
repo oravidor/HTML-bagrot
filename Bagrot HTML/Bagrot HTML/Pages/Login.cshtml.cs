@@ -21,16 +21,14 @@ namespace Bagrot_HTML.Pages
             string sqlQuery = $"SELECT * FROM {Utils.DB_USERS_TABLE} WHERE Email = '{logEmail}' AND Password = '{logPassword}'";
 
             DBHelper dB = new DBHelper();
-            DataTable resultTable = dB.RetrieveTable(sqlQuery, Utils.DB_USERS_TABLE);
-            if (resultTable.Rows.Count == 1)
-            {
-                return RedirectToPage("/Home");
-            }
-            else
+            DataTable userTable = dB.RetrieveTable(sqlQuery, Utils.DB_USERS_TABLE);
+            if (userTable.Rows.Count != 1)
             {
                 message = "one or more inputs are wrong";
                 return Page();
             }
+
+            return RedirectToPage("/Home");
         }
     }
 }

@@ -1,0 +1,205 @@
+﻿@page
+@model Bagrot_HTML.Pages.UserDetailsUpdateModel
+@using System.Data;
+@{
+    ViewData["Title"] = "Admin";
+}
+<link href="~/css/stylesheet.css" rel="stylesheet" />
+<link href="~/css/userdetailsupdatestylesheet.css" rel="stylesheet" />
+<script src="~/js/userdetailsupdate.js"></script>
+
+
+<form name="updateFoem" method="post" onsubmit="return validateRegisterForm()" onreset="resetForm()";>
+
+    <div>@* id *@
+        <label for="userId" class="label">User ID</label>
+        <input type="text" asp-for="user.Id" id="userId" name="userId" maxlength="50" placeholder="user ID" oninput="checkId()" />
+        <br />
+        <span class="text-danger" id="errorUserId"></span>
+    </div>
+
+    <button type="submit" name="submit" value="Search" onclick="isSearchTrue()">Search</button>
+    <br />
+
+    <div>@* email *@
+        <label for="userEmail" class="label">User Email</label>
+        <input type="text" asp-for="user.Email" id="email" maxlength="50" placeholder="user email" value="@Model.UserEmail" oninput="checkEmail()" />
+        <br />
+        <span class="text-danger" id="errorEmail"></span>
+    </div>
+
+    <br />
+
+    <div>@* CityID *@
+        <label for="City" asp-for="user.City" style="margin-left: 5px; margin-right: 15px;">City Name:</label>
+        <select id="City" asp-for="user.City" oninput="checkRadioButtons()" style="width: fit-content; margin-right: 15px;">
+
+            <option></option>
+
+            @foreach (DataRow row in Model.dtCityID.Rows)
+            {
+                if (Model.UserCity == row["City"].ToString())
+                {
+                    <option asp-for="user.CityID" selected value='@row["City"]'>
+
+                        @row["City"]
+
+                    </option>
+                }
+                else
+                {
+                    <option asp-for="user.CityID" value='@row["City"]'>
+
+                        @row["City"]
+
+                    </option>
+                }
+
+            }
+
+        </select>
+        <span class="text-danger" id="errorCityID"></span>
+    </div>
+
+    <br />
+
+    <div>@* prefix and phone num *@
+        <label for="prefix" class="lable">Prefix:</label>
+        <select id="prefix" asp-for="user.Prefix" oninput="checkRadioButtons()" style="width: fit-content; margin-right: 15px;">
+
+            <option></option>
+
+            @foreach (DataRow row in Model.dtPrefix.Rows)
+            {
+                if (Model.UserPrefix == row["Prefix"].ToString())
+                {
+                    <option asp-for="user.PrefixID" selected value='@row["Prefix"]'>
+                        @row["Prefix"]
+                    </option>
+                }
+                else
+                {
+
+                    <option asp-for="user.PrefixID" value='@row["Prefix"]'>
+
+                        @row["Prefix"]
+
+                    </option>
+                }
+            }
+        </select>
+        <span class="text-danger" id="errorPrefix"></span>
+
+        <br />
+        <br />
+
+        <label for="phone" class="lable">Phone Number</label>
+        <input type="number" asp-for="user.Phone" value="@Model.UserPhone" id="phone" maxlength="15" placeholder="Enter phone number" oninput="checkPhoneNum()" />
+        <br />
+        <span class="text-danger" id="errorPhone"></span>
+
+    </div>
+
+    <br />
+
+    <div>@* First Name *@
+        <label for="firstName" class="label">First Name</label>
+        <input type="text" asp-for="user.FirstName" value="@Model.UserFirstName" id="firstName" maxlength="50" placeholder="first name" />
+        <br />
+        <span class="text-danger" id="errorFirstName"></span>
+    </div>
+
+    <br />
+
+    <div>@* Last Name *@
+        <label for="lastName" class="label">Last Name</label>
+        <input type="text" asp-for="user.LastName" value="@Model.UserLastName" id="lastName" maxlength="50" placeholder="last name" />
+        <br />
+        <span class="text-danger" id="errorLastName"></span>
+    </div>
+
+    <br />
+
+    <div>@* Year Of Birth *@
+        <label for="yearOfBirth" class="label">Year Of Birth</label>
+        <input type="number" asp-for="user.YearOfBirth" value="@Model.UserYearOfBirth" id="yearOfBirth" min="1900" max="2100" placeholder="year of birth" />
+        <br />
+        <span class="text-danger" id="errorYearOfBirth"></span>
+    </div>
+
+    <br />
+
+    <div>@* Gender *@
+        <label for="gender" class="label">Gender</label>
+        <select asp-for="user.Gender" id="Gender" oninput="checkRadioButtons()">
+            @if (Model.UserGender == "Male")
+            {
+                <option value="" asp-for="user.Gender">Select Gender</option>
+                <option value="Male" asp-for="user.Gender" selected>Male</option>
+                <option value="Female" asp-for="user.Gender">Female</option>
+                <option value="Other" asp-for="user.Gender">Other</option>
+            }
+            else if (Model.UserGender == "Female")
+            {
+                <option value="" asp-for="user.Gender">Select Gender</option>
+                <option value="Male" asp-for="user.Gender">Male</option>
+                <option value="Female" asp-for="user.Gender" selected>Female</option>
+                <option value="Other" asp-for="user.Gender">Other</option>
+            }
+            else if (Model.UserGender == "Other")
+            {
+                <option value="" asp-for="user.Gender">Select Gender</option>
+                <option value="Male" asp-for="user.Gender">Male</option>
+                <option value="Female" asp-for="user.Gender" selected>Female</option>
+                <option value="Other" asp-for="user.Gender">Other</option>
+            }
+            else
+            {
+                <option value="" asp-for="user.Gender">Select Gender</option>
+                <option value="Male" asp-for="user.Gender">Male</option>
+                <option value="Female" asp-for="user.Gender">Female</option>
+                <option value="Other" asp-for="user.Gender">Other</option>
+            }
+        </select>
+        <br />
+        <span class="text-danger" id="errorGender"></span>
+    </div>
+
+    <br />
+
+    <div>@* Password *@
+        <label for="password" class="label">Password</label>
+        <input type="text" asp-for="user.Password" value="@Model.UserPassword" id="password" maxlength="50" oninput="checkPassword()" placeholder="password" />
+        <br />
+        <span class="text-danger" id="errorPassword"></span>
+    </div>
+
+    <br />
+
+    <div>@* Confirm Password *@
+        <label for="confirmPassword" class="label">Confirm Password</label>
+        <input type="password" id="confirmPassword" value="@Model.UserPassword" oninput="checkConfirmPassword()" maxlength="50" placeholder="confirm password" />
+        <br />
+        <span class="text-danger" id="errorConfirmPassword"></span>
+    </div>
+
+    <br />
+
+    <div>@* User Name *@
+        <label for="userName" class="label">User Name</label>
+        <input type="text" asp-for="user.UserName" value="@Model.UserUserName" oninput="checkUserName()" id="userName" maxlength="50" placeholder="user name" />
+        <br />
+        <span class="text-danger" id="errorUserName"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <button type="submit" name="submit" value="Update">Update</button>
+        <button type="button" onclick="clearTextFields()">reset</button>
+        <br />
+        <span class="text-danger">@Model.errorMessage</span>
+    </div>
+
+</form>
+

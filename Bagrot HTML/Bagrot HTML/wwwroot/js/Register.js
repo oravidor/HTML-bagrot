@@ -149,7 +149,7 @@ function checkPhoneNum() {
 
     errorElement.innerHTML = "";
 
-    let regExPhone = /^\d{10}$/;
+    let regExPhone = /^\d{7}$/;
 
     if (phoneNumber === "") {
         errorElement.innerHTML = "This field cannot be empty.";
@@ -197,9 +197,9 @@ function checkPrefix() {
     return true;
 }
 
-function checkCityID() {
-    const CityID = document.getElementById("reg_CityID");
-    const errorElement = document.getElementById("reg_errorCityID");
+function checkCity() {
+    const CityID = document.getElementById("reg_City");
+    const errorElement = document.getElementById("reg_errorCity");
 
     errorElement.innerHTML = "";
 
@@ -253,7 +253,7 @@ function validateRegisterForm() {
     isFormOK = checkPhoneNum() && isFormOK;
     isFormOK = checkEmail() && isFormOK;
     isFormOK = checkPrefix() && isFormOK;
-    isFormOK = checkCityID() && isFormOK;
+    isFormOK = checkCity() && isFormOK;
     isFormOK = checkUserName() && isFormOK;
 
     return isFormOK;

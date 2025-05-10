@@ -54,6 +54,45 @@ namespace Bagrot.DataModel
             return dt;
         }
 
+        public User RetrieveUser(int Id, string table)
+        {
+            SqlConnection con = new SqlConnection(conString);
+
+            string SQLStr = $"SELECT * FROM {table} WHERE Id = {Id}";
+            SqlCommand cmd = new SqlCommand(SQLStr, con);
+
+            DataTable dt = new DataTable();
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+            adapter.Fill(dt);
+
+            if (dt.Rows.Count == 0)
+            {
+                return null;
+            }
+
+            DataRow row = dt.Rows[0];
+
+            User user = new User
+            {
+                Id = Convert.ToInt32(row["Id"]),
+                Email = row["Email"].ToString(),
+                Password = row["Password"].ToString(),
+                FirstName = row["FirstName"].ToString(),
+                LastName = row["LastName"].ToString(),
+                Prefix = Convert.ToInt32(row["Prefix"]),
+                Phone = row["Phone"].ToString(),
+                City = row["City"].ToString(),
+                Gender = row["Gender"].ToString(),
+                UserName = row["UserName"].ToString(),
+                YearOfBirth = Convert.ToInt32(row["YearOfBirth"])
+            };
+
+            return user;
+        }
+
+
+
         public int Insert(User user, string table)
         {
             SqlConnection con = new SqlConnection(conString);
@@ -76,9 +115,9 @@ namespace Bagrot.DataModel
             dr["Password"] = user.Password;
             dr["FirstName"] = user.FirstName;
             dr["LastName"] = user.LastName;
-            dr["PrefixID"] = user.PrefixID;
+            dr["Prefix"] = user.Prefix;
             dr["Phone"] = user.Phone;
-            dr["CityID"] = user.CityID;
+            dr["City"] = user.City;
             dr["Gender"] = user.Gender;
             dr["UserName"] = user.UserName;
             dr["YearOfBirth"] = user.YearOfBirth;
@@ -87,6 +126,45 @@ namespace Bagrot.DataModel
 
             SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
             int numRowsAffected = adapter.Update(ds, table);
+            return numRowsAffected;
+        }
+
+        public int Update(User user, string table)
+        {
+            SqlConnection con = new SqlConnection(conString);
+
+            string SQLStr = $"SELECT * FROM {table} WHERE Id = '{user.Id}'";
+            SqlCommand cmd = new SqlCommand(SQLStr, con);
+
+            DataSet ds = new DataSet();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(ds, table);
+
+            if (ds.Tables[table]?.Rows.Count == 0 || user.Id < 0)
+            {
+                return -1;
+            }
+
+
+            string SQL = $"UPDATE {table} " +
+            $"SET Email ='{user.Email}', " +
+            $"UserName = '{user.UserName}', " +
+            $"Password = '{user.Password}', " +
+            $"YearOfBirth = '{user.YearOfBirth}', " +
+            $"Phone = '{user.Phone}', " +
+            $"City = '{user.City}', " +
+            $"FirstName = '{user.FirstName}', " +
+            $"LastName = '{user.LastName}', " +
+            $"Gender = '{user.Gender}', " +
+            $"Prefix = '{user.Prefix}' " +  
+            $"WHERE Id = '{user.Id}'";
+
+
+            SqlCommand cmdUpdate = new SqlCommand(SQL, con);
+            con.Open();
+            int numRowsAffected = cmdUpdate.ExecuteNonQuery();
+            con.Close();
             return numRowsAffected;
         }
 
