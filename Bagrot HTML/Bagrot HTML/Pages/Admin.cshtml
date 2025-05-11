@@ -11,7 +11,7 @@
 <form name="Fillter" method="post">
     <button type="submit" onclick="clearTextFields()">Reset</button>
 
-    <label for="reg_CityID"  style="margin-left: 5px; margin-right: 15px;">Filter:</label>
+    <label for="reg_CityID" style="margin-left: 5px; margin-right: 15px;">Filter:</label>
     <select id="filterColumn" name="filterColumn" style="width: fit-content; margin-right: 15px;">
 
         <option></option>
@@ -41,8 +41,10 @@
     <br />
     <input type="text" name="delete" id="delete" min="1" maxlength="50" />
 
-    <button type="submit" name="submit" value="Delete" >Delete</button>
+    <button type="submit" name="submit" value="Delete">Delete</button>
 </form>
+<a asp-page="/UserDetailsUpdate" class="a">User Details Update</a>
+
 
 
 

@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/AdminStyleSheet.81j4fv7voo.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\AdminStyleSheet.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"81j4fv7voo"},{"Name":"integrity","Value":"sha256-XLSYQ\u002BXk6awm236yfkPgNeAf\u002BJJC7YAqWDKKkpIxtHo="},{"Name":"label","Value":"_content/Bagrot HTML/css/AdminStyleSheet.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"474"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XLSYQ\u002BXk6awm236yfkPgNeAf\u002BJJC7YAqWDKKkpIxtHo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 05:02:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/AdminStyleSheet.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\AdminStyleSheet.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"490"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 11:21:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/AdminStyleSheet.f0r0wgpfoa.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\AdminStyleSheet.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f0r0wgpfoa"},{"Name":"integrity","Value":"sha256-QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g="},{"Name":"label","Value":"_content/Bagrot HTML/css/AdminStyleSheet.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"490"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022QcdSQ61wBU6KqmkRANI4NPjCqk2tHwEMNgf5wnKKy5g=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 11:21:46 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XLSYQ\u002BXk6awm236yfkPgNeAf\u002BJJC7YAqWDKKkpIxtHo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"474"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022XLSYQ\u002BXk6awm236yfkPgNeAf\u002BJJC7YAqWDKKkpIxtHo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 05:02:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/GalartStyleSheet.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\GalartStyleSheet.css'))</AssetFile>
@@ -36,17 +36,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-53q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1930"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002253q7YCeTaYG5xOYEKKtQVHfHm2KWRscQAe8E8Merbmg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 08:18:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/StyleSheet.1xvcctyxyr.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StyleSheet.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1xvcctyxyr"},{"Name":"integrity","Value":"sha256-lazVY6mcwJBpNMKY2Zp5o6\u002BN9/f62A1fj1eWwRT5jHw="},{"Name":"label","Value":"_content/Bagrot HTML/css/StyleSheet.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"876"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lazVY6mcwJBpNMKY2Zp5o6\u002BN9/f62A1fj1eWwRT5jHw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 09:45:56 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/StyleSheet.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StyleSheet.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lazVY6mcwJBpNMKY2Zp5o6\u002BN9/f62A1fj1eWwRT5jHw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"876"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022lazVY6mcwJBpNMKY2Zp5o6\u002BN9/f62A1fj1eWwRT5jHw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Dec 2024 09:45:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-It0eK/qRkOjlq9vaL2MqBTLVyQSdffmiBMi4RnvMNZA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"968"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022It0eK/qRkOjlq9vaL2MqBTLVyQSdffmiBMi4RnvMNZA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 05:09:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/StyleSheet.q1mlo6l690.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StyleSheet.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q1mlo6l690"},{"Name":"integrity","Value":"sha256-It0eK/qRkOjlq9vaL2MqBTLVyQSdffmiBMi4RnvMNZA="},{"Name":"label","Value":"_content/Bagrot HTML/css/StyleSheet.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"968"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022It0eK/qRkOjlq9vaL2MqBTLVyQSdffmiBMi4RnvMNZA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 11 May 2025 05:09:57 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Bagrot HTML/css/StyleSheetCalculator.4n5qiqf01y.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\StyleSheetCalculator.css'))</AssetFile>

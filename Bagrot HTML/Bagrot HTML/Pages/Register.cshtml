@@ -117,7 +117,7 @@
             <label for="reg_prefix" class="lable">Prefix:</label>
             <select id="reg_prefix" asp-for="user.Prefix" oninput="checkPrefix()" style="width: fit-content; margin-right: 15px;">
 
-                <option></option>
+                <option>Select Prefix</option>
                 
                 @foreach (DataRow row in Model.dtPrefix.Rows)
                 {
@@ -149,5 +149,4 @@
             <span class="text-danger">@Model.errorMessage</span>
         </div>
     </form>
-
 </main>

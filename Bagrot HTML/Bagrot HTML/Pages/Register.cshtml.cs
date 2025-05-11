@@ -47,7 +47,7 @@ namespace Bagrot_HTML.Pages
                 errorMessage = "An unexpected error occurred";
                 return Page();
             }
-            return RedirectToPage("/Home");
+            return RedirectToPage("/Login");
         }
 
     }

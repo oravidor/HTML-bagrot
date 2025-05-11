@@ -1,11 +1,10 @@
 ﻿table {
     border-style: solid;
 }
+
 th, td {
     border-style: solid;
 }
-
-
 
 label {
     font-size: 14px;
@@ -13,8 +12,6 @@ label {
     margin-bottom: 5px;
     color: HSL(0, 0%, 30%);
 }
-
-
 
 input:focus {
     border-color: HSL(210, 50%, 50%);
@@ -27,11 +24,6 @@ input:focus {
     font-size: 12px;
 }
 
-
-
-
-
 button[type="submit"]:hover {
     background-color: HSL(210°, 14%, 41%);
 }
-
