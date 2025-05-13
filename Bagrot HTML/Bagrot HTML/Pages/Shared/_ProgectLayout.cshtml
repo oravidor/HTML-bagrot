@@ -1,26 +1,4 @@
 ﻿<!DOCTYPE html>
-
-<script>
-      function updateDateTime() {
-      const now = new Date();
-
-      const time = now.toLocaleTimeString('en-GB', { hour12: false });
-      const date = now.toLocaleDateString('en-GB', {
-        weekday: 'short',
-        day: '2-digit',
-        month: 'short',
-        year: 'numeric'
-      });
-
-      document.getElementById('datetime').textContent = `${date}  |  ${time}`;
-    }
-
-    setInterval(updateDateTime, 100);
-    updateDateTime();
-</script>
-
-
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -28,25 +6,60 @@
     <link rel="icon" type="image/x-icon" href="~/favicon.png" />
 </head>
 <body>
-        <nav class="navbar">
-            <ul>
-                <li><a asp-page="/Home">Home</a></li>
-                <li><a asp-page="/Carbohydrates and Sugar">Carbohydrates and Sugar</a></li>
-                <li><a asp-page="/food labels">food labels</a></li>
-                <li><a asp-page="/Galary">Galry</a></li>
-                <li><a asp-page="/Admin">Admin</a></li>
-                <li><a asp-page="/Login">Login</a></li>
-            </ul>
-            <div id="datetime" style="font-size: 1.5rem; font-family: monospace;"></div>
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const time = now.toLocaleTimeString('en-GB', { hour12: false });
+            const date = now.toLocaleDateString('en-GB', {
+                weekday: 'short',
+                day: '2-digit',
+                month: 'short',
+                year: 'numeric'
+            });
+            document.getElementById('datetime').textContent = `${date} | ${time}`;
+        }
 
-        </nav>
-        <br />
-    <div>
-        @RenderBody()
+        setInterval(updateDateTime, 100);
+        updateDateTime();
+    </script>
+
+    @{
+        string? UserID = Context.Session.GetString("UserId");
+        string? IsUserAdmin = Context.Session.GetString("Admin");
+        string? UserFirstName = Context.Session.GetString("UserFirstName");
+    }
+    <nav class="navbar">
+        <ul>
+            <li><a asp-page="/Home">Home</a></li>
+            <li><a asp-page="/Carbohydrates and Sugar">Carbohydrates and Sugar</a></li>
+            <li><a asp-page="/food labels">food labels</a></li>
+            <li><a asp-page="/Galary">Galry</a></li>
+        </ul>
+
+        <div id="datetime"></div>
+
+        <ul>
+            @if (IsUserAdmin == "True")
+            {
+                <li><a asp-page="/Admin">Admin</a></li>
+            }
+            @if (UserID == null)
+            {
+                <li><a asp-page="/Login">Login</a></li>
+            }
+            else
+            {
+                <li><a asp-page="/Logout">Logout</a></li>
+            }
+        </ul>
+    </nav>
+
+    <div class="greeting">
+        Hello @(!string.IsNullOrEmpty(UserFirstName) ? UserFirstName : "Guest")
     </div>
 
-        <footer>
+        @RenderBody()
 
-        </footer>
+    <footer></footer>
 </body>
 </html>

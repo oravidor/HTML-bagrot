@@ -195,6 +195,23 @@
     <br />
 
     <div>
+        <label for="userAdmin" class="Lable">Admin</label>
+        <select name="user.Admin" class="form-select">
+            @if (Model.UserAdmin)
+            {
+                <option asp-for="user.Admin" value="True" selected>True</option>
+                <option asp-for="user.Admin" value="False">False</option>
+            }
+            else
+            {
+                <option asp-for="user.Admin" value="True">True</option>
+                <option asp-for="user.Admin" value="False" selected>False</option>
+            }
+        </select>
+
+    </div>
+
+    <div>
         <button type="submit" name="submit" value="Update">Update</button>
         <button type="button" onclick="clearTextFields()">reset</button>
         <br />

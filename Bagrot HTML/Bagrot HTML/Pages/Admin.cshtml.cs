@@ -10,10 +10,15 @@ namespace Bagrot_HTML.Pages
     {
         public DataTable? DataTableUsers { get; set; }
         public DataTable dtFilterColumn { get; set; } = new DataTable();
-        public string[] displayColumns { get; set; } = ["Id", "Email", "City", "Prefix", "Phone", "FirstName", "LastName", "YearOfBirth", "Gender", "Password", "UserName"];
+        public string[] displayColumns { get; set; } = ["Id", "Email", "City", "Prefix", "Phone", "FirstName", "LastName", "YearOfBirth", "Gender", "Password", "UserName", "Admin"];
 
         public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("Admin") != "True")
+            {
+                return RedirectToPage("/Login");
+            }
+
             DBHelper dBHelper = new DBHelper();
 
             string tableNameFilter = "dtFilterColumn";
@@ -24,6 +29,7 @@ namespace Bagrot_HTML.Pages
 
             DataTableUsers = dBHelper.RetrieveTable(sqlQuery, $"{Utils.DB_USERS_TABLE}");
             return Page();
+
         }
 
         public IActionResult OnPost()

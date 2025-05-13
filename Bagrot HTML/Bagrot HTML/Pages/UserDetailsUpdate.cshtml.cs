@@ -28,10 +28,15 @@ namespace Bagrot_HTML.Pages
         public string UserGender { get; set; } = "";
         public string UserPassword { get; set; } = "";
         public string UserUserName { get; set; } = "";
+        public bool UserAdmin { get; set; }
 
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            if (HttpContext.Session.GetString("Admin") != "True")
+            {
+                return RedirectToPage("/Login");
+            }
 
             DBHelper dBHelper = new DBHelper();
 
@@ -42,6 +47,8 @@ namespace Bagrot_HTML.Pages
             string tableNamedCityID = "dtCityID";
             string sqlQuerydtCityID = $"SELECT * FROM {tableNamedCityID}";
             dtCityID = dBHelper.RetrieveTable(sqlQuerydtCityID, tableNamedCityID);
+
+            return Page();
         }
 
 
@@ -79,6 +86,7 @@ namespace Bagrot_HTML.Pages
                 UserGender = user.Gender;
                 UserPassword = user.Password;
                 UserUserName = user.UserName;
+                UserAdmin = user.Admin;
 
 
                 string tableNamePrefix = "dtPrefix";

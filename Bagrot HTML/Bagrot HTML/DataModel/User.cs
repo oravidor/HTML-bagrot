@@ -13,6 +13,7 @@
         public string Gender { get; set; } = string.Empty;
         public string UserName { get; set; } = string.Empty;
         public int YearOfBirth { get; set; }
+        public bool Admin { get; set; }
 
     }
 }

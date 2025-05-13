@@ -26,38 +26,51 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar ul {
-    list-style-type: none;
-    background-color: HSL(0, 0%, 25%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    padding-left: 20px;
-}
-
-.navbar a{
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
-}
-
-.navbar a:hover {
-    background-color: HSL(0, 0%, 10%);
-}
-
-.navbar li {
-    float: left;
-}
-
 .pageTitle{
     text-align:center
 }
 
-.a:link {
-    text-decoration: none;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 0%, 25%);
+    padding: 10px 20px;
+    color: white;
 }
-.a:hover {
-    text-decoration: underline;
+
+    .navbar ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin-right: 15px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+    }
+
+        .navbar a:hover {
+            background-color: hsl(0, 0%, 15%);
+        }
+
+#datetime {
+    font-family: monospace;
+    font-size: 1rem;
+    margin: 0 20px;
+    white-space: nowrap;
+}
+
+.greeting {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #333;
 }

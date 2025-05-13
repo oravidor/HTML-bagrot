@@ -85,7 +85,8 @@ namespace Bagrot.DataModel
                 City = row["City"].ToString(),
                 Gender = row["Gender"].ToString(),
                 UserName = row["UserName"].ToString(),
-                YearOfBirth = Convert.ToInt32(row["YearOfBirth"])
+                YearOfBirth = Convert.ToInt32(row["YearOfBirth"]),
+                Admin = Convert.ToBoolean(row["Admin"])
             };
 
             return user;
@@ -157,7 +158,8 @@ namespace Bagrot.DataModel
             $"FirstName = '{user.FirstName}', " +
             $"LastName = '{user.LastName}', " +
             $"Gender = '{user.Gender}', " +
-            $"Prefix = '{user.Prefix}' " +  
+            $"Prefix = '{user.Prefix}', " +  
+            $"Admin = '{user.Admin}' " +
             $"WHERE Id = '{user.Id}'";
 
 
