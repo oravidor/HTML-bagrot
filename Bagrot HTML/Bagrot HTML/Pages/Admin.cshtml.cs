@@ -19,6 +19,7 @@ namespace Bagrot_HTML.Pages
                 return RedirectToPage("/Login");
             }
 
+
             DBHelper dBHelper = new DBHelper();
 
             string tableNameFilter = "dtFilterColumn";

@@ -5,8 +5,20 @@ namespace Bagrot_HTML.Pages
 {
     public class GalaryModel : PageModel
     {
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            var hasVisited = Request.Cookies["VisitedGallery"];
+
+            if (string.IsNullOrEmpty(hasVisited))
+            {
+                Response.Cookies.Append("VisitedGallery", "true", new CookieOptions
+                {
+                    Expires = DateTimeOffset.UtcNow.AddHours(1),
+                    HttpOnly = true
+                });
+            }
+
+            return Page();
         }
     }
 }
