@@ -8,15 +8,15 @@
 <body>
     <script>
         function updateDateTime() {
-            const now = new Date();
-            const time = now.toLocaleTimeString('en-GB', { hour12: false });
-            const date = now.toLocaleDateString('en-GB', {
-                weekday: 'short',
-                day: '2-digit',
-                month: 'short',
-                year: 'numeric'
-            });
-            document.getElementById('datetime').textContent = `${date} | ${time}`;
+        const now = new Date();
+        const time = now.toLocaleTimeString('en-GB', { hour12: false });
+        const date = now.toLocaleDateString('en-GB', {
+        weekday: 'short',
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric'
+        });
+        document.getElementById('datetime').textContent = `${date} | ${time}`;
         }
 
         setInterval(updateDateTime, 100);
@@ -34,6 +34,10 @@
             <li><a asp-page="/Carbohydrates and Sugar">Carbohydrates and Sugar</a></li>
             <li><a asp-page="/food labels">food labels</a></li>
             <li><a asp-page="/Galary">Galry</a></li>
+            @if(UserID != null)
+            {
+                <li><a asp-page="/Survey">Survey</a></li>
+            }
         </ul>
 
         <div id="datetime"></div>

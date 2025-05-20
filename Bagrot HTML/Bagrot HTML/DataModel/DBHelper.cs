@@ -158,7 +158,7 @@ namespace Bagrot.DataModel
             $"FirstName = '{user.FirstName}', " +
             $"LastName = '{user.LastName}', " +
             $"Gender = '{user.Gender}', " +
-            $"Prefix = '{user.Prefix}', " +  
+            $"Prefix = '{user.Prefix}', " +
             $"Admin = '{user.Admin}' " +
             $"WHERE Id = '{user.Id}'";
 
@@ -170,5 +170,70 @@ namespace Bagrot.DataModel
             return numRowsAffected;
         }
 
+        public int Insert(Survey survey, string table)
+        {
+            SqlConnection con = new SqlConnection(conString);
+
+            string SQLStr = $"SELECT * FROM {table} WHERE UserId = '{survey.UserId}'";
+            SqlCommand cmd = new SqlCommand(SQLStr, con);
+
+            DataSet ds = new DataSet();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(ds, table);
+
+            if (ds.Tables[table].Rows.Count > 0)
+            {
+                return -1;
+            }
+
+            DataRow dr = ds.Tables[table].NewRow();
+            dr["UserId"] = survey.UserId;
+            dr["glassesOfWaterPerDay"] = survey.glassesOfWaterPerDay;
+            dr["CaloriesPerDay"] = survey.CaloriesPerDay;
+
+            ds.Tables[table].Rows.Add(dr);
+
+            SqlCommandBuilder builder = new SqlCommandBuilder(adapter);
+            int numRowsAffected = adapter.Update(ds, table);
+            return numRowsAffected;
+        }
+
+        public int DidVote(Survey survey, string table)
+        {
+            SqlConnection con = new SqlConnection(conString);
+
+            string SQLStr = $"SELECT * FROM {table} WHERE UserId = '{survey.UserId}'";
+            SqlCommand cmd = new SqlCommand(SQLStr, con);
+
+            DataSet ds = new DataSet();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            adapter.Fill(ds, table);
+
+            if (ds.Tables[table].Rows.Count > 0)
+            {
+                return -1;
+            }
+            return 0;
+
+        }
+        public int RetrieveSurveyAverage(string table, string columnName)
+        {
+            using (SqlConnection con = new SqlConnection(conString))
+            {
+                string SQLStr = $"SELECT AVG(CAST([{columnName}] AS FLOAT)) FROM {table}";
+                SqlCommand cmd = new SqlCommand(SQLStr, con);
+                con.Open();
+                object result = cmd.ExecuteScalar();
+                con.Close();
+
+                if (result != DBNull.Value && result != null)
+                {
+                    return Convert.ToInt32(Math.Round(Convert.ToDouble(result)));
+                }
+                return 0;
+            }
+        }
     }
 }

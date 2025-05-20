@@ -1,0 +1,48 @@
+﻿@page
+@model Bagrot_HTML.Pages.SurveyModel
+@using System.Data;
+@{
+    ViewData["Title"] = "Survey";
+}
+<link href="~/css/stylesheet.css" rel="stylesheet" />
+<link href="~/css/surveystylesheet.css" rel="stylesheet" />
+<script src="~/js/register.js"></script>
+
+
+<form name="survey" method="post" onreset="resetForm();" class="survey-form">
+    <table class="survey-table">
+        <thead>
+            <tr>
+                <td colspan="2">Survey</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="Q1">How many Calories Per Day do you eat?</label>
+                    <input type="number" asp-for="survey.CaloriesPerDay" id="Q1" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Q2">How many glasses Of Water you drink Per Day?</label>
+                    <input type="number" asp-for="survey.glassesOfWaterPerDay" id="Q2" />
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <button type="submit" name="submit" @(Model.numRowsAffected == -1 ? "disabled" : "")>Submit</button>
+                    <button type="reset" @(Model.numRowsAffected == -1 ? "disabled" : "")>Reset</button>
+                    <br />
+                    <span class="text-danger">@Model.errorMessage</span>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</form>
+
+<br />
+
+@Html.Raw(Model.averageAnswers)
