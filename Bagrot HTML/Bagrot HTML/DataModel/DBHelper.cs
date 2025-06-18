@@ -40,15 +40,6 @@ namespace Bagrot.DataModel
             // Build DataAdapter
             SqlDataAdapter ad = new SqlDataAdapter(cmd);
 
-
-            //// Build DataSet to store the data
-            //DataSet ds = new DataSet();
-            //// Get Data form DataBase into the DataSet
-            //ad.Fill(ds, table); // ad.Fill(ds);
-            //return ds.Tables[table];
-
-            // !!!!!!!  ALTERNATIVELY  the adapter returns just the table, not a DataSet (many tables)
-            // Or just get just one table - not a DataSet (which includes many tables)
             DataTable dt = new DataTable();
             ad.Fill(dt);
             return dt;
