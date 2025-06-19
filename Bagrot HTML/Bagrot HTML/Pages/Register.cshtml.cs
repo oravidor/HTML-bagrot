@@ -21,7 +21,33 @@ namespace Bagrot_HTML.Pages
 
         public void OnGet()
         {
+            resertTables();
+        }
 
+        public IActionResult OnPost()
+        {  
+            DBHelper dB = new DBHelper();
+            int numRowsAffected = dB.Insert(user, Utils.DB_USERS_TABLE);
+            if (numRowsAffected == -1)
+            {
+                errorMessage = "This email is already registered";
+                resertTables();
+                return Page();
+            }
+            else if (numRowsAffected != 1)
+            {
+                errorMessage = "An unexpected error occurred";
+                resertTables();
+                return Page();
+            }
+
+
+            resertTables();
+            return RedirectToPage("/Login");
+        }
+
+        public void resertTables()
+        {
             DBHelper dBHelper = new DBHelper();
 
             string tableNamePrefix = "dtPrefix";
@@ -33,22 +59,6 @@ namespace Bagrot_HTML.Pages
             dtCity = dBHelper.RetrieveTable(sqlQuerydtCityID, tableNamedCityID);
         }
 
-        public IActionResult OnPost()
-        {  
-            DBHelper dB = new DBHelper();
-            int numRowsAffected = dB.Insert(user, Utils.DB_USERS_TABLE);
-            if (numRowsAffected == -1)
-            {
-                errorMessage = "This email is already registered";
-                return Page();
-            }
-            else if (numRowsAffected != 1)
-            {
-                errorMessage = "An unexpected error occurred";
-                return Page();
-            }
-            return RedirectToPage("/Login");
-        }
 
     }
 }
