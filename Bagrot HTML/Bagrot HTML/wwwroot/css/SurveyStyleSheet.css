@@ -1,81 +1,108 @@
-﻿.survey-form {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: #fdfdfd;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+﻿body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
 }
 
-.survey-table,
-.average-table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
+.survey-form {
+    max-width: 650px;
+    margin: 50px auto;
+    padding: 30px 40px;
     background-color: #ffffff;
-    border-radius: 10px;
-    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-    .survey-table thead td,
-    .average-table thead td {
-        background-color: hsl(210, 50%, 50%);
-        color: white;
-        font-weight: bold;
-        padding: 12px;
-        font-size: 1.2rem;
+.survey-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+    .survey-table thead td {
+        background-color: hsl(210, 60%, 45%);
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.3rem;
+        padding: 16px;
         text-align: center;
+        border-radius: 10px 10px 0 0;
     }
 
-    .survey-table td,
-    .average-table td {
-        padding: 15px;
-        border-top: 1px solid #eee;
-    }
+
 
 input[type="number"] {
     width: 100%;
-    padding: 8px;
+    padding: 12px;
     font-size: 1rem;
-    border-radius: 5px;
     border: 1px solid #ccc;
-    margin-top: 5px;
+    border-radius: 8px;
+    margin-top: 8px;
     box-sizing: border-box;
-    transition: 0.2s;
+    transition: 0.3s ease-in-out;
+    background-color: #fafafa;
 }
 
     input[type="number"]:focus {
-        border-color: HSL(210, 50%, 50%);
-        box-shadow: 0 0 6px HSL(210, 50%, 70%);
+        border-color: hsl(210, 60%, 50%);
+        box-shadow: 0 0 5px hsl(210, 60%, 70%);
+        background-color: #fff;
         outline: none;
     }
 
 button[type="submit"],
 button[type="reset"] {
-    padding: 10px 20px;
+    padding: 12px 28px;
     font-size: 1rem;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-right: 12px;
     border: none;
-    background-color: hsl(210, 50%, 50%);
+    background-color: hsl(210, 60%, 50%);
     color: white;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: 0.3s;
-}
-
-button[disabled] {
-    background-color: #999;
-    cursor: not-allowed;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
 }
 
 button:hover:not([disabled]) {
-    background-color: hsl(210, 50%, 40%);
+    background-color: hsl(210, 60%, 40%);
+}
+
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
 }
 
 .text-danger {
-    color: hsl(0, 70%, 50%);
+    color: hsl(0, 70%, 45%);
     font-weight: bold;
-    margin-top: 10px;
-    display: block;
+    margin-top: 15px;
+    display: inline-block;
 }
+
+.average-table {
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+    .average-table thead td {
+        background-color: hsl(210, 60%, 45%);
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 1.3rem;
+        margin: 0;
+        padding: 16px;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .average-table td {
+        padding: 14px;
+        border-top: 1px solid #eee;
+    }

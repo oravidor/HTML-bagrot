@@ -3,7 +3,6 @@ wwwroot\css\GalartStyleSheet.css
 wwwroot\css\RegisterStyleSheet.css
 wwwroot\css\StyleSheet.css
 wwwroot\css\StyleSheetCalculator.css
-wwwroot\css\SurveyStyleSheet.css
 wwwroot\css\UserDetailsUpdateStyleSheet.css
 wwwroot\favicon.png
 wwwroot\HTML\CalculatorHTML.html
@@ -84,3 +83,4 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\SurveyStyleSheet.css
